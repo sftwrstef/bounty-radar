@@ -154,7 +154,7 @@ bounty_radar/
 
 tracked_orgs.example.json  safe configuration template
 .env.example               safe environment template
-.github/workflows/         hourly GitHub Actions runner
+.github/workflows/         manual GitHub Actions runner
 ```
 
 ## `// telegram alerts`
@@ -169,17 +169,18 @@ not repeat the same launch merely because a page is still live.
 
 ## `// GitHub Actions`
 
-An hourly workflow is included at
+An optional manual workflow is included at
 [`.github/workflows/bounty-radar.yml`](.github/workflows/bounty-radar.yml).
 Add these repository secrets before enabling live delivery:
 
 - `BOUNTY_RADAR_GITHUB_TOKEN` — optional, improves GitHub API limits.
 - `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` — enables alert delivery.
 
-The public workflow runs the safe template configuration by default. In your
-private fork, point `TRACKED_CONFIG` at your own copied configuration when you
-want repository-specific monitoring. The workflow caches only local radar state
-and uploads Markdown digests as run artifacts. Do not put secrets in
+It has no schedule, so local/Codex remains the only automatic runner. The public
+workflow runs the safe template configuration only when manually dispatched. In
+your private fork, point `TRACKED_CONFIG` at your own copied configuration when
+you want repository-specific monitoring. The workflow caches only local radar
+state and uploads Markdown digests as run artifacts. Do not put secrets in
 `tracked_orgs.json`, digests, or the database.
 
 ## `// before you publish`
