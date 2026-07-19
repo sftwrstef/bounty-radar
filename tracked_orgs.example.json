@@ -1,15 +1,6 @@
 {
-  "orgs": [
-    {
-      "name": "your-target-org",
-      "max_repos": 25,
-      "include_archived": false
-    }
-  ],
-  "repos": [
-    "owner/high-value-repo",
-    "owner/bridge-or-settlement-repo"
-  ],
+  "orgs": [],
+  "repos": [],
   "sources": [
     {
       "name": "broad-bountyhunters-recent",

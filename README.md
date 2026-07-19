@@ -176,8 +176,11 @@ Add these repository secrets before enabling live delivery:
 - `BOUNTY_RADAR_GITHUB_TOKEN` — optional, improves GitHub API limits.
 - `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` — enables alert delivery.
 
-The workflow caches only local radar state and uploads Markdown digests as run
-artifacts. Do not put secrets in `tracked_orgs.json`, digests, or the database.
+The public workflow runs the safe template configuration by default. In your
+private fork, point `TRACKED_CONFIG` at your own copied configuration when you
+want repository-specific monitoring. The workflow caches only local radar state
+and uploads Markdown digests as run artifacts. Do not put secrets in
+`tracked_orgs.json`, digests, or the database.
 
 ## `// before you publish`
 
