@@ -1,0 +1,74 @@
+{
+  "orgs": [
+    {
+      "name": "your-target-org",
+      "max_repos": 25,
+      "include_archived": false
+    }
+  ],
+  "repos": [
+    "owner/high-value-repo",
+    "owner/bridge-or-settlement-repo"
+  ],
+  "sources": [
+    {
+      "name": "broad-bountyhunters-recent",
+      "url": "https://bountyhunte.rs/programs?date=tracked_recently",
+      "kind": "html",
+      "url_terms": ["/programs/"],
+      "exclude_terms": ["sign in", "pricing", "privacy", "terms"],
+      "max_items": 25
+    },
+    {
+      "name": "cantina-competitions",
+      "url": "https://cantina.xyz/opportunities/competitions",
+      "kind": "html",
+      "include_terms": ["competition", "live", "USDC"],
+      "url_terms": ["/competitions/"],
+      "max_items": 10
+    },
+    {
+      "name": "broad-hackenproof-programs",
+      "url": "https://hackenproof.com/programs",
+      "kind": "browser",
+      "browser": true,
+      "browser_wait_ms": 8000,
+      "include_terms": ["bug bounty", "program", "smart contracts"],
+      "url_terms": ["/programs/"],
+      "max_items": 25
+    },
+    {
+      "name": "hackenproof-programs",
+      "url": "https://hackenproof.com/programs",
+      "kind": "browser",
+      "browser": true,
+      "browser_wait_ms": 8000,
+      "require_direct_submit": true,
+      "include_terms": ["bug bounty", "program", "smart contracts"],
+      "url_terms": ["/programs/"],
+      "max_items": 25
+    },
+    {
+      "name": "bountyhunters-recent",
+      "url": "https://bountyhunte.rs/programs?date=tracked_recently",
+      "kind": "html",
+      "require_external_program_url": true,
+      "url_terms": ["/programs/"],
+      "exclude_terms": ["sign in", "pricing", "privacy", "terms"],
+      "max_items": 25
+    }
+  ],
+  "settings": {
+    "lookback_hours": 24,
+    "baseline_days": 7,
+    "velocity_spike_multiplier": 2.0,
+    "velocity_min_commits": 8,
+    "heat_score_spike_threshold": 25,
+    "enable_code_search": true,
+    "max_code_search_terms": 20,
+    "max_org_repos": 75,
+    "enable_release_scan": true,
+    "max_releases": 5,
+    "source_alert_min_severity": 4
+  }
+}

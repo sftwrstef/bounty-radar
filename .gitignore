@@ -1,0 +1,12 @@
+.env
+.venv
+.venv.icloud-dataless-*/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+tracked_orgs.json
+data/*
+!data/.gitkeep
+digests/*
+!digests/.gitkeep
