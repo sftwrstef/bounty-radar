@@ -189,9 +189,13 @@ class GitHubClient:
         return releases[:max_releases]
 
     def search_code(self, full_name: str, term: str, *, max_results: int = 3) -> dict[str, Any]:
+        query = f'repo:{full_name} "{term}"'
+        return self.search_code_query(query, max_results=max_results)
+
+    def search_code_query(self, query: str, *, max_results: int = 3) -> dict[str, Any]:
+        """Search public GitHub code without constraining the query to one repository."""
         if self.code_search_unavailable_error:
             raise GitHubAPIError(self.code_search_unavailable_error)
-        query = f'repo:{full_name} "{term}"'
         try:
             return self._request("/search/code", {"q": query, "per_page": max_results})
         except GitHubAPIError as exc:

@@ -14,6 +14,7 @@ from bounty_radar.scanners.content import (
     scan_repository_text,
     scan_security_docs,
 )
+from bounty_radar.scanners.direct_programs import scan_direct_programs
 from bounty_radar.scanners.releases import scan_releases
 from bounty_radar.scanners.sources import scan_source
 from bounty_radar.scanners.velocity import scan_velocity
@@ -303,6 +304,63 @@ def scan_one_source(
     }
 
 
+def scan_direct_program_discovery(
+    *,
+    api: GitHubClient,
+    storage: Storage,
+    telegram: TelegramClient,
+    settings: RadarSettings,
+    send_alerts: bool,
+    now: datetime,
+) -> dict[str, Any]:
+    """Run the global first-party policy discovery lane through source deduplication."""
+    source_name = "github-direct-web3-programs"
+    source_url = "https://github.com/search?q=%22bug+bounty%22+%22security%40%22&type=code"
+    scanned_at = now.isoformat()
+    storage.upsert_source(name=source_name, url=source_url, kind="github-code-search", seen_at=scanned_at)
+    signals, errors = scan_direct_programs(api, max_results=settings.max_direct_program_results)
+    new_signals = [
+        signal
+        for signal in signals
+        if storage.upsert_source_signal(source_name=source_name, signal=signal, seen_at=scanned_at)
+    ]
+    storage.set_source_state(source_name, "last_attempt_at", scanned_at, scanned_at)
+    if errors:
+        storage.set_source_state(source_name, "last_error", " | ".join(errors), scanned_at)
+        storage.set_source_state(source_name, "last_error_at", scanned_at, scanned_at)
+    else:
+        storage.set_source_state(source_name, "last_scan_at", scanned_at, scanned_at)
+        storage.set_source_state(source_name, "last_success_at", scanned_at, scanned_at)
+        storage.set_source_state(source_name, "last_error", "", scanned_at)
+
+    alert_signals = [signal for signal in new_signals if signal.severity >= settings.source_alert_min_severity]
+    alert_sent = False
+    if send_alerts and alert_signals:
+        message = format_source_alert_message(
+            source_name=source_name,
+            source_url=source_url,
+            signals=alert_signals,
+        )
+        alert_sent = telegram.send_message(message)
+        storage.record_source_alert(
+            source_name=source_name,
+            alert_type="direct_program_discovered",
+            title="Direct bounty program discovered",
+            message=message,
+            sent_at=scanned_at,
+        )
+
+    return {
+        "source": source_name,
+        "items": len(signals),
+        "new_signals": len(new_signals),
+        "alert_signals": len(alert_signals),
+        "alert_sent": alert_sent,
+        "coverage_ok": not errors,
+        "errors": errors,
+    }
+
+
 def run_scan(
     *,
     config_path: str,
@@ -328,6 +386,19 @@ def run_scan(
         report("enumerating GitHub targets")
         repos, target_errors = _enumerate_repos(api, config.repos, config.orgs, config.settings)
         errors.extend(target_errors)
+
+        if config.settings.enable_direct_program_discovery:
+            report("direct-program discovery")
+            direct_result = scan_direct_program_discovery(
+                api=api,
+                storage=storage,
+                telegram=telegram,
+                settings=config.settings,
+                send_alerts=send_alerts,
+                now=now,
+            )
+            source_results.append(direct_result)
+            errors.extend(direct_result["errors"])
 
         for index, repo in enumerate(repos, start=1):
             full_name = repo.get("full_name", "unknown repository")

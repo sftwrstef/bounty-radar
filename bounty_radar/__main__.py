@@ -16,12 +16,12 @@ def build_parser() -> argparse.ArgumentParser:
     subcommands = parser.add_subparsers(dest="command", required=True)
 
     init_db = subcommands.add_parser("init-db", help="Initialize the SQLite database")
-    init_db.add_argument("--db", default=os.getenv("BOUNTY_RADAR_DB", "data/bounty_radar.sqlite"))
+    init_db.add_argument("--db", default=None)
 
     scan = subcommands.add_parser("scan", help="Run a radar scan and write a digest")
-    scan.add_argument("--config", default=os.getenv("TRACKED_CONFIG", "tracked_orgs.json"))
-    scan.add_argument("--db", default=os.getenv("BOUNTY_RADAR_DB", "data/bounty_radar.sqlite"))
-    scan.add_argument("--digest-dir", default=os.getenv("DIGEST_DIR", "digests"))
+    scan.add_argument("--config", default=None)
+    scan.add_argument("--db", default=None)
+    scan.add_argument("--digest-dir", default=None)
     scan.add_argument("--no-alerts", action="store_true", help="Do not send Telegram alerts")
     scan.add_argument("--json", action="store_true", help="Print machine-readable results")
     scan.add_argument(
@@ -31,8 +31,8 @@ def build_parser() -> argparse.ArgumentParser:
     )
 
     digest = subcommands.add_parser("digest", help="Regenerate today's markdown digest")
-    digest.add_argument("--db", default=os.getenv("BOUNTY_RADAR_DB", "data/bounty_radar.sqlite"))
-    digest.add_argument("--digest-dir", default=os.getenv("DIGEST_DIR", "digests"))
+    digest.add_argument("--db", default=None)
+    digest.add_argument("--digest-dir", default=None)
 
     telegram = subcommands.add_parser("check-telegram", help="Check Telegram secret wiring")
     telegram.add_argument(
@@ -46,7 +46,7 @@ def build_parser() -> argparse.ArgumentParser:
         help="Open a browser-backed source to warm its persistent profile",
     )
     warm.add_argument("source_name", help="Source name from tracked_orgs.json")
-    warm.add_argument("--config", default=os.getenv("TRACKED_CONFIG", "tracked_orgs.json"))
+    warm.add_argument("--config", default=None)
     warm.add_argument("--wait-ms", type=int, default=60000)
     warm.add_argument("--headed", action="store_true", help="Force a visible browser window")
 
@@ -58,8 +58,8 @@ def build_parser() -> argparse.ArgumentParser:
     record.add_argument("--title", required=True, help="Verified item title")
     record.add_argument("--url", required=True, help="Verified official item URL")
     record.add_argument("--summary", default="", help="Optional verified status/reward summary")
-    record.add_argument("--config", default=os.getenv("TRACKED_CONFIG", "tracked_orgs.json"))
-    record.add_argument("--db", default=os.getenv("BOUNTY_RADAR_DB", "data/bounty_radar.sqlite"))
+    record.add_argument("--config", default=None)
+    record.add_argument("--db", default=None)
     record.add_argument("--no-alerts", action="store_true", help="Record without Telegram")
 
     return parser
@@ -72,10 +72,20 @@ def _present_env_key(keys: tuple[str, ...]) -> str | None:
     return None
 
 
+def _option_or_env(value: str | None, env_name: str, fallback: str) -> str:
+    return value or os.getenv(env_name, fallback)
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
     load_environment(args.env_file)
+    if args.command in {"init-db", "digest", "scan", "record-source"}:
+        args.db = _option_or_env(args.db, "BOUNTY_RADAR_DB", "data/bounty_radar.sqlite")
+    if args.command in {"digest", "scan"}:
+        args.digest_dir = _option_or_env(args.digest_dir, "DIGEST_DIR", "digests")
+    if args.command in {"scan", "warm-source", "record-source"}:
+        args.config = _option_or_env(args.config, "TRACKED_CONFIG", "tracked_orgs.json")
 
     if args.command == "init-db":
         from bounty_radar.storage import Storage

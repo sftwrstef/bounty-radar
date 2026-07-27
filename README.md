@@ -47,7 +47,8 @@ It is designed to answer one useful question quickly:
 | Signal lane | Examples | Why it matters |
 | --- | --- | --- |
 | Repository heat | `SECURITY.md`, bounty references, audit language, releases, commit velocity | Finds projects whose security posture or code is moving. |
-| Platform launches | HackenProof programs and audits, Cantina, Sherlock, Code4rena, CodeHawks, discovery feeds | Surfaces fresh places to hunt before they become crowded. |
+| Direct-program discovery | Public GitHub policy files with both reward language and a direct private reporting route | Surfaces first-party bounties that are not hosted by a bounty platform. |
+| Platform launches | Immunefi, HackenProof programs and audits, Cantina, Sherlock, Code4rena, CodeHawks, discovery feeds | Surfaces fresh places to hunt before they become crowded. |
 | Scope-shaped changes | New URLs, updated listings, bounty/reward language, direct-submit eligibility | Keeps a target board from going stale. |
 | Delivery | Telegram alerts, daily Markdown digest, SQLite history | Makes repeated scans quiet unless the underlying state changed. |
 
@@ -138,6 +139,31 @@ DIGEST_DIR=digests
 `BOUNTY_RADAR_GITHUB_TOKEN` is optional, but increases API headroom for code
 search. Telegram credentials are optional; without both, the radar simply
 writes local digests.
+
+### Browser-backed sources
+
+Some sources require a local Chromium browser. Install the pinned Playwright
+binary once after installing Python dependencies:
+
+```bash
+python -m playwright install chromium
+```
+
+If a site presents an anti-bot challenge, the binary is working but that source
+is still degraded. Use the official page as a manual verification fallback and
+record a verified missed listing with `record-source` rather than calling the
+scan a quiet pass.
+
+### Direct-program discovery
+
+Set `enable_direct_program_discovery` in `tracked_orgs.json` to query public
+Web3 `SECURITY.md` and `security.txt` policy files for both explicit reward
+evidence and a direct private reporting route (for example, a `security@`
+address). It excludes policies that route submissions through a bounty
+platform. It stores results as the
+`github-direct-web3-programs` source and sends an alert only for a newly discovered,
+deduplicated policy. A responsible-disclosure policy without a stated reward is
+kept out of this lane deliberately.
 
 ## `// project map`
 

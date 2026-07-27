@@ -66,6 +66,8 @@ class RadarSettings:
     enable_release_scan: bool = True
     max_releases: int = 5
     source_alert_min_severity: int = 4
+    enable_direct_program_discovery: bool = False
+    max_direct_program_results: int = 6
 
     @classmethod
     def from_dict(cls, raw: dict[str, Any] | None) -> "RadarSettings":
@@ -93,6 +95,13 @@ class RadarSettings:
             max_releases=int(raw.get("max_releases", cls.max_releases)),
             source_alert_min_severity=int(
                 raw.get("source_alert_min_severity", cls.source_alert_min_severity)
+            ),
+            enable_direct_program_discovery=_coerce_bool(
+                raw.get("enable_direct_program_discovery"),
+                cls.enable_direct_program_discovery,
+            ),
+            max_direct_program_results=int(
+                raw.get("max_direct_program_results", cls.max_direct_program_results)
             ),
         )
 

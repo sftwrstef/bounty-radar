@@ -40,6 +40,23 @@
       "max_items": 25
     },
     {
+      "name": "broad-immunefi-bounties",
+      "url": "https://immunefi.com/bug-bounty/",
+      "kind": "html",
+      "exclude_terms": ["explore bounties"],
+      "url_terms": ["/bug-bounty/"],
+      "max_items": 25
+    },
+    {
+      "name": "immunefi-bounties",
+      "url": "https://immunefi.com/bug-bounty/",
+      "kind": "html",
+      "require_direct_submit": true,
+      "exclude_terms": ["explore bounties"],
+      "url_terms": ["/bug-bounty/"],
+      "max_items": 25
+    },
+    {
       "name": "bountyhunters-recent",
       "url": "https://bountyhunte.rs/programs?date=tracked_recently",
       "kind": "html",
@@ -55,11 +72,13 @@
     "velocity_spike_multiplier": 2.0,
     "velocity_min_commits": 8,
     "heat_score_spike_threshold": 25,
-    "enable_code_search": true,
+    "enable_code_search": false,
     "max_code_search_terms": 20,
     "max_org_repos": 75,
     "enable_release_scan": true,
     "max_releases": 5,
-    "source_alert_min_severity": 4
+    "source_alert_min_severity": 4,
+    "enable_direct_program_discovery": true,
+    "max_direct_program_results": 6
   }
 }
