@@ -7,7 +7,7 @@ from typing import Any
 from bounty_radar.config import RadarSettings, load_tracked_config, resolve_github_token
 from bounty_radar.digest import write_daily_digest
 from bounty_radar.github_api import GitHubAPIError, GitHubClient
-from bounty_radar.models import ScoreResult, Signal, VelocityMetrics
+from bounty_radar.models import ScoreResult, Signal
 from bounty_radar.scanners.content import (
     scan_code_search,
     scan_commit_messages,

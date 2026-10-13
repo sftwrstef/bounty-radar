@@ -149,6 +149,35 @@ binary once after installing Python dependencies:
 python -m playwright install chromium
 ```
 
+### New-Mac restore check
+
+The live radar state is local and is not recreated by cloning source. Preserve
+and restore all of these paths before retiring the old Mac:
+
+- `bounty-radar/`, including `data/bounty_radar.sqlite`, `digests/`,
+  `verification/`, and `tracked_orgs.json`.
+- `$HOME/.codex/browser-profiles/vesper-bounty-radar`, which holds the warmed
+  browser profile used by challenge-protected public sources.
+- the environment file or secret manager supplying GitHub and Telegram
+  credentials. Never copy secrets into this repository or a digest.
+
+Recreate the virtual environment rather than assuming its absolute symlinks
+remain valid on a different account path:
+
+```bash
+cd "$HOME/Code/Vesper/bounty-radar"
+python3.14 -m venv "$HOME/.codex/venvs/vesper-bounty-radar-20260713"
+ln -sfn "$HOME/.codex/venvs/vesper-bounty-radar-20260713" .venv
+./.venv/bin/python -m pip install -r requirements.txt
+./.venv/bin/python -m playwright install chromium
+./.venv/bin/python -B -m bounty_radar check-telegram
+./.venv/bin/python -m compileall -q bounty_radar
+sqlite3 -readonly data/bounty_radar.sqlite 'PRAGMA quick_check;'
+```
+
+Do not send a Telegram test during migration verification. The non-sending
+`check-telegram` command only confirms that the expected credentials load.
+
 If a site presents an anti-bot challenge, the binary is working but that source
 is still degraded. Use the official page as a manual verification fallback and
 record a verified missed listing with `record-source` rather than calling the

@@ -9,6 +9,11 @@ from pathlib import Path
 from bounty_radar.config import env_bool
 
 
+DEFAULT_BROWSER_USER_DATA_DIR = str(
+    Path.home() / ".codex" / "browser-profiles" / "vesper-bounty-radar"
+)
+
+
 class BrowserFetchError(RuntimeError):
     pass
 
@@ -156,7 +161,7 @@ def fetch_rendered_html(
     headless = env_bool("BOUNTY_RADAR_BROWSER_HEADLESS", True)
     user_data_dir = os.getenv(
         "BOUNTY_RADAR_BROWSER_USER_DATA_DIR",
-        "/Users/sftwr/.codex/browser-profiles/vesper-bounty-radar",
+        DEFAULT_BROWSER_USER_DATA_DIR,
     )
     user_agent = os.getenv(
         "BOUNTY_RADAR_BROWSER_USER_AGENT",

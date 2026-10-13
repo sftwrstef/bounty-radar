@@ -19,15 +19,18 @@ except ImportError:  # pragma: no cover - certifi is optional at import time
     certifi = None
 
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+VESPER_ROOT = PROJECT_ROOT.parent
+USER_HOME = Path.home()
+
 DEFAULT_ENV_FILES = (
-    ".env",
-    "/Users/sftwr/Documents/GitHub/Vesper/.env.audit-notify",
-    "/Users/sftwr/Documents/GitHub/Vesper/.env",
-    "/Users/sftwr/Documents/GitHub/Vesper/bounty-radar/.env",
-    "/Users/sftwr/Documents/GitHub/Vesper/Vesper_Audit_Lab/.env",
-    "/Users/sftwr/Code/Polymarket/.env",
-    "/Users/sftwr/Code/EQXBot/.env",
-    "/Users/sftwr/Documents/GitHub/EQXBot/.env",
+    str(PROJECT_ROOT / ".env"),
+    str(VESPER_ROOT / ".env.audit-notify"),
+    str(VESPER_ROOT / ".env"),
+    str(VESPER_ROOT / "Vesper_Audit_Lab" / ".env"),
+    str(USER_HOME / "Code" / "Polymarket" / ".env"),
+    str(USER_HOME / "Code" / "EQXBot" / ".env"),
+    str(USER_HOME / "Documents" / "GitHub" / "EQXBot" / ".env"),
 )
 
 

@@ -5,7 +5,6 @@ import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from html.parser import HTMLParser
-from typing import Any
 from urllib.parse import urljoin, urlparse
 
 import requests
