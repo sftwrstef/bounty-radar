@@ -55,7 +55,7 @@ It is designed to answer one useful question quickly:
 ## `// quick start`
 
 ```bash
-git clone https://github.com/YOUR_HANDLE/bounty-radar.git
+git clone https://github.com/sftwrstef/bounty-radar.git
 cd bounty-radar
 
 python3 -m venv .venv
