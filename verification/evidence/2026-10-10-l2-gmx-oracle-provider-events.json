@@ -1,0 +1,23 @@
+{
+  "names": [
+    "InitOracleProviderForToken",
+    "SetOracleProviderForToken",
+    "SetOracleProviderForFeeHandlerToken"
+  ],
+  "hashes": {
+    "InitOracleProviderForToken": "0xc7b43d9cebceb1a6870af6220c7b00c9e07326ba33c4428c24374bcf38848c4b",
+    "SetOracleProviderForToken": "0x847d2997b6786073f637440884e6c53ec6f9daee399a90f291e0d2e58cf4315c",
+    "SetOracleProviderForFeeHandlerToken": "0xc881fddb8808e5bb3dbf39577e741f7b894d740089d3d114c28a395e401e5ca7"
+  },
+  "start": 511527674,
+  "end": 513637182,
+  "rows": [],
+  "errors": [],
+  "catalog_sha256": "fb1f931ff1c979097ea625247f800149c2519fafe61ff17448a520eeb9a0d32f",
+  "rpc": "https://arb1.arbitrum.io/rpc",
+  "emitter": "0xC8ee91A54287DB53897056e12D9819156D3822Fb",
+  "topic0": "0x7e3bde2ba7aca4a8499608ca57f3b0c1c1c93ace63ffd3741a9fab204146fc9a",
+  "window_size_blocks": 10000,
+  "windows": 211,
+  "limit": "Three named GMX EventLog oracle-provider changes only."
+}

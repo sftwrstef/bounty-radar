@@ -1,0 +1,17 @@
+# Immunefi mechanism-first hunt — 2026-10-11
+
+This run deliberately changed from the October 10 live-diff and CCIP/Hyperlane/Folks/Twyne screens to three separate redemption, settlement, and reserve-accounting mechanisms. **No High/Critical or strong-Medium candidate survived.** The conclusion is limited to the exact tests below; the programs are not exhausted. No report, fee, target contact, or production mutation occurred.
+
+## Current scope gate
+
+The [official Immunefi bounty catalog](https://immunefi.com/public-api/bounties.json) was read at 2026-10-11 03:59:47 UTC: ETag `W/"2026-10-09T13:53:37.555Z:232:232"`, 6,460,188 bytes, SHA-256 `fb1f931ff1c979097ea625247f800149c2519fafe61ff17448a520eeb9a0d32f`. It matched the October 10 official-catalog baseline, so this run was based on existing scope, not a new public asset addition. Each target record below also checked its exact [Enzyme](https://immunefi.com/bug-bounty/enzyme-onyx/scope/), [Extra Finance](https://immunefi.com/bug-bounty/extrafinance/scope/), or [Ondo](https://immunefi.com/bug-bounty/ondofinance/scope/) scope and source pin.
+
+## Decisive diagnostics
+
+| Mechanism | Evidence and same-state control | Disposition |
+| --- | --- | --- |
+| Enzyme nested redemption request | A source-bound diagnostic checked 10,000 nested/outer splits at the pinned queue source. Fully funded splits escrowed both requests; overdraws reverted atomically. The two observed live OALS queues had zero callback hooks at Ethereum block 26166689. | [KILL this duplicate-claim mechanism](../../audit_targets/enzyme-onyx-sync-redeem-immunefi-20261009/analysis/20261011_nested_pre_request_callback.md). The model is not an EVM PoC or target-wide hook census. |
+| Extra Finance public empty debt-position refresh | Exact deployed-code local forks compared identical end states with and without one outsider midpoint refresh. Debt and eToken supply **increased**, rather than showing hypothesized fee suppression: +0.001060 USDC debt and +0.000200 eUSDC supply on reserve 2; +0.004915443174776752 OP debt and +0.000975983895265410 eOP supply on reserve 4. Extra refreshes used about 168,000 local gas each. | [Technical effect, bounty-weak](../../audit_targets/extra-finance-current-sideways-immunefi-20260902/analysis/20261011_empty_position_refresh/RESULT.md). Individual allocation, present October deployment, and production economics remain UNKNOWN. |
+| Ondo cross-maker order residual | A local Forge test of the real pinned PortfolioTokenLimitOrder reproduced a $10 prior-BUY residual funding a later maker's $100 exact-out SELL when the manager returned $90. From the same pre-SELL state, exact-in paid $90 and kept the residual; an authorized $10 refund made exact-out revert atomically. Test passed 1/1. | [KILL as a public-user bounty candidate](../../audit_targets/ondo-portfolio-sep29-immunefi-20260930/analysis/20261011_portfolio_cross_maker_residual.md). Both makers received amounts allowed by their orders, and the fill needs a privileged executor plus signer-issued quote. No protected first-maker claim or innocent-party loss was established. The manager stand-in omitted real attestation/registry/router. |
+
+The target-local `HUNT_STATUS.md` files hold the current technical dispositions. Reopen these exact questions only on the specific changed hook/custody semantics, materially different reserve configuration and economics, or untrusted Ondo fill/quote authority plus proven adverse entitlement described there. This run supplies bounded local diagnostics, not a finding ready for submission.

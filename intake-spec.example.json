@@ -1,0 +1,25 @@
+{
+  "alert_worthy": true,
+  "signals": [
+    {
+      "details": "LayerZero OFT permit and nonce handling changed",
+      "fingerprint": "repository:example-bridge:authorization-change",
+      "key": "authorization-change",
+      "metadata": {},
+      "signal_type": "scope_changed",
+      "title": "Bridge authorization contracts changed",
+      "url": "https://example.invalid/program"
+    }
+  ],
+  "source_coverage": [
+    {
+      "coverage_ok": false,
+      "errors": [
+        "replace with real source coverage before review"
+      ],
+      "source_name": "replace-source-name"
+    }
+  ],
+  "subject_kind": "repository",
+  "subject_name": "replace-owner/repository"
+}

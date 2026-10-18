@@ -1,0 +1,29 @@
+{
+  "goal": "Continue the private paid hunt for an eligible High or strong Medium, respecting current official scope and the user's external-action boundaries.",
+  "exact_stopping_point": "Aqua/SwapVM maker-selected Extruction passed 1/1 local control: false amountNetPulled allowed 50e18 output without input, but maker embeds the target, so outsider exploit/payout remains PARK. Guarded run succeeded from Aqua target cwd on approved Extreme SSD scratch; PhotosDrive is needed only for new external source acquisition. Vesper-root receipt remains stale and untouched. Mattermost Jira restricted-comment idea exactly collides with first-party issue #626. No fresh strong paid pick.",
+  "next_action": "Seek a distinct officially scoped target with an outsider-controlled action and cheap local test. Preserve Aqua test and root receipt; do not submit maker-chosen-extension behavior. New source acquisition still needs verified PhotosDrive or approved storage-policy change. Mattermost Zoom and Octez local tests remain source-held. Do not repeat AWS signing or live payment.",
+  "completed": [
+    {
+      "text": "Aqua Extruction synthetic local test compiled and passed 1/1 with a same-state revert control; actor and prior-art gate parked it.",
+      "evidence": "audit_targets/1inch-aqua-hackenproof-20260924/HUNT_STATUS.md"
+    },
+    {
+      "text": "Read-only Mattermost Jira scout found exact first-party public issue #626 collision; no test or source acquisition.",
+      "evidence": "bounty-radar/verification/2026-10-08-rotation-screen.md"
+    },
+    {
+      "text": "Confirmed Aqua target-specific scratch receipt valid and wrapper run succeeded; root receipt not repaired or bypassed.",
+      "evidence": "audit_targets/1inch-aqua-hackenproof-20260924/HUNT_STATUS.md"
+    }
+  ],
+  "not_done": [
+    {
+      "text": "No independent attacker path to the Aqua extension or production loss; no new bounty-ready finding.",
+      "evidence": "audit_targets/1inch-aqua-hackenproof-20260924/HUNT_STATUS.md"
+    },
+    {
+      "text": "Mattermost Zoom v2 and Octez pinned local tests remain unrun because new external source acquisition needs verified PhotosDrive.",
+      "evidence": "audit_targets/mattermost-zoom-v1130-bugcrowd-20261008/HUNT_STATUS.md"
+    }
+  ]
+}

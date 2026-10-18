@@ -1,0 +1,50 @@
+{
+  "observed_at_utc": "2026-10-10T22:32:19.273111+00:00",
+  "rpc": "https://eth.drpc.org",
+  "catalog_sha256": "fb1f931ff1c979097ea625247f800149c2519fafe61ff17448a520eeb9a0d32f",
+  "catalog_program_count": 232,
+  "filter": "active non-invite programs with maxBounty >= 1000000; exact Etherscan or eth.blockscout.com smart-contract address",
+  "selected_program_count": 20,
+  "selected_asset_rows": 499,
+  "selected_unique_addresses": 474,
+  "slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+  "start_block": {
+    "number": 26143955,
+    "hash": "0x848fd4b171e4d60e4c09e6985b94ec2021235e1a2fb14c4110a9b88f4a85bb28",
+    "timestamp": 1791417599
+  },
+  "end_block": {
+    "number": 26164957,
+    "hash": "0x263ac779d7b4b435cc0f7a959dfe8da931b8595a25c91208a5456c4a682090ed",
+    "timestamp": 1791670487
+  },
+  "implementation_slot_changes": [],
+  "nonzero_implementation_slots_before": 132,
+  "nonzero_implementation_slots_after": 132,
+  "tail_upgraded_event_windows": [
+    {
+      "from": 26164625,
+      "to": 26164724,
+      "log_count": 11,
+      "exact_matches": []
+    },
+    {
+      "from": 26164725,
+      "to": 26164824,
+      "log_count": 7,
+      "exact_matches": []
+    },
+    {
+      "from": 26164825,
+      "to": 26164924,
+      "log_count": 10,
+      "exact_matches": []
+    },
+    {
+      "from": 26164925,
+      "to": 26164957,
+      "log_count": 5,
+      "exact_matches": []
+    }
+  ]
+}

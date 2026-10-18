@@ -1,0 +1,57 @@
+{
+  "goal": "Continue the private, evidence-first paid hunt for an eligible High or strong Medium; no new submission or target contact without separate authorization.",
+  "exact_stopping_point": "Amazon SNS test/cleanup complete; payout HOLD. OC freeze sixth GraphQL test UNRUN: stale scratch source_device, no supported rebind. PhotosDrive absent; Mac locked. Aqua nested underpayment KILLED 4/4. GMX ingress source trace PARK; Hyperlane/Optimism/Digital Oro delta checks NO PICK. Jetpack actor path UNRUN.",
+  "next_action": "After Mac unlock/mount, identify signed-in site and verify PhotosDrive UUID; then run bounded Jetpack shipped-class actor test or admit fresh scoped source. OC sixth test only after verified receipt reconciliation, never guard bypass. Otherwise scout a current official paid asset with a runnable distinct question. No new report, fee, or live mutation without required authorization.",
+  "completed": [
+    {
+      "text": "Amazon Pay owned SNS test and cleanup reconciled, then parked for payout impact/scope.",
+      "evidence": "audit_targets/automattic-amazon-pay-v262-h1-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "OC virtual-card freeze five-test result preserved; new sixth host-admin GraphQL test and clean-checkout patch prepared but explicitly unrun after storage hold.",
+      "evidence": "audit_targets/opencollective-api-20261008/diagnostics/OC-VC-FREEZE-001/README.md"
+    },
+    {
+      "text": "Cloudflare access-curl redirect mechanics reproduced only with synthetic tokens and two owned loopback origins; generic curl behavior, not report-ready.",
+      "evidence": "bounty-radar/verification/2026-10-08-rotation-screen.md"
+    },
+    {
+      "text": "WooPayments 11.2.0 current source pinned locally and conditional imported-intent amount-check gap parked behind actor-control/cart-hash barrier.",
+      "evidence": "audit_targets/woocommerce-payments-v1120-h1-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "Later GMX ingress, Hyperlane and Optimism commit deltas, and Digital Oro audit checks yielded no new runnable paid pick; exact boundaries and reopen conditions recorded.",
+      "evidence": "bounty-radar/verification/2026-10-08-rotation-screen.md"
+    },
+    {
+      "text": "Jetpack protected-playlist actor-path hypothesis and unrun/storage-hold boundary recorded in target-local status.",
+      "evidence": "audit_targets/jetpack-v163-h1-20261006/HUNT_STATUS.md"
+    },
+    {
+      "text": "Aqua/SwapVM distinct-order nested callback diagnostic: four local tests passed; outer one-wei underpayment reverted atomically and restored both ledgers and wallets. Exact hypothesis killed only.",
+      "evidence": "audit_targets/1inch-aqua-hackenproof-20260924/HUNT_STATUS.md"
+    },
+    {
+      "text": "Aqua independent source review yielded no new pick; Proton shared-vault alias-contact wrapper is parked because server authorization is unknown.",
+      "evidence": "audit_targets/proton-pass-web-bounty-20261008/HUNT_STATUS.md"
+    }
+  ],
+  "not_done": [
+    {
+      "text": "No six-test OC GraphQL suite execution or deployed freeze/card impact proof; storage identity mismatch remains fail-closed.",
+      "evidence": "audit_targets/opencollective-api-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "No Cloudflare end-to-end Access-app exploit, real token, or live test.",
+      "evidence": "bounty-radar/verification/2026-10-08-rotation-screen.md"
+    },
+    {
+      "text": "No ordinary customer path to a lower-value WooPay intent for the same higher-value order, and no runtime underpayment test.",
+      "evidence": "audit_targets/woocommerce-payments-v1120-h1-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "No shipped Jetpack private-video actor-path test or remote playback-token validation; PhotosDrive is absent and source fallback is forbidden.",
+      "evidence": "audit_targets/jetpack-v163-h1-20261006/HUNT_STATUS.md"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "catalog_sha256": "fb1f931ff1c979097ea625247f800149c2519fafe61ff17448a520eeb9a0d32f",
+  "scope_url": "https://immunefi.com/bug-bounty/usdt0/scope/",
+  "event_signature": "PeerSet(uint32,bytes32)",
+  "topic0": "0x238399d427b947898edb290f5ff0f9109849b1c3ba196a42e35f00c50a54b98b",
+  "chains": [
+    {
+      "chain": "Optimism",
+      "rpc": "https://mainnet.optimism.io",
+      "address": "0xF03b4d9AC1D5d1E7c4cEf54C2A313b9fe051A0aD",
+      "start": 157734069,
+      "end": 158034068,
+      "window_size": 10000,
+      "windows": 30,
+      "success": 30,
+      "errors": [],
+      "matches": []
+    },
+    {
+      "chain": "Arbitrum",
+      "rpc": "https://arb1.arbitrum.io/rpc",
+      "address": "0x14E4A1B13bf7F943c8ff7C51fb60FA964A298D92",
+      "start": 511527674,
+      "end": 513637182,
+      "window_size": 10000,
+      "windows": 211,
+      "success": 211,
+      "errors": [],
+      "matches": []
+    }
+  ],
+  "limit": "Only peer-setting event emitted directly by the two exact scoped OApp addresses; Endpoint/DVN/Executor config emitted elsewhere is not covered."
+}

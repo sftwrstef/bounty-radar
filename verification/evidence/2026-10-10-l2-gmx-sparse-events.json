@@ -1,0 +1,17 @@
+{
+  "rpc": "https://arb1.arbitrum.io/rpc",
+  "emitter": "0xC8ee91A54287DB53897056e12D9819156D3822Fb",
+  "start": 511527674,
+  "end": 513637710,
+  "windows": 212,
+  "success": 212,
+  "errors": [],
+  "matches": [],
+  "topic0": "0x137a44067c8961cd7e1d876f4754a5a3a75989b4552f1843fc69c3b372def160",
+  "event_name_hashes": {
+    "SetAddress": "0xc70e71f83a378fe9c195c33cffacaae2ed4edad52da64e03045e785e358956e2",
+    "SetBool": "0x81b30f29e7945c41dc84a16fb5345bf8bf9fd87d7b5c60f483dda8520b46db87"
+  },
+  "catalog_sha256": "fb1f931ff1c979097ea625247f800149c2519fafe61ff17448a520eeb9a0d32f",
+  "limit": "Only GMX EventLog1 with SetAddress or SetBool eventNameHash, not all GMX configuration events."
+}

@@ -1,0 +1,22 @@
+{
+  "chain": "Optimism",
+  "catalog_addresses": 167,
+  "range": [
+    157934221,
+    158034220
+  ],
+  "windows": 100,
+  "errors": [],
+  "total_events": 5080,
+  "counts": {
+    "BeaconUpgraded": 4211,
+    "OwnershipTransferred": 799,
+    "RoleGranted": 46,
+    "Paused": 3,
+    "Unpaused": 3,
+    "AdminChanged": 9,
+    "RoleRevoked": 9
+  },
+  "matches": [],
+  "source_catalog_sha256": "fb1f931ff1c979097ea625247f800149c2519fafe61ff17448a520eeb9a0d32f"
+}

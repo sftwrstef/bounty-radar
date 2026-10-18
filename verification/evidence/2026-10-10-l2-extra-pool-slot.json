@@ -1,0 +1,27 @@
+{
+  "rpc": "https://mainnet.optimism.io",
+  "scope_url": "https://immunefi.com/bug-bounty/extrafinance/scope/",
+  "asset": "Pool_Proxy (Lending Market)",
+  "address": "0x345D2827f36621b02B783f7D5004B4a2fec00186",
+  "slot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+  "reads": [
+    {
+      "block": 156000000,
+      "value": "0x000000000000000000000000d2f8c50858654ea0f81978b632288cb7ca93fc10"
+    },
+    {
+      "block": 157000000,
+      "value": "0x000000000000000000000000d2f8c50858654ea0f81978b632288cb7ca93fc10"
+    },
+    {
+      "block": 157734069,
+      "value": "0x000000000000000000000000d2f8c50858654ea0f81978b632288cb7ca93fc10"
+    },
+    {
+      "block": 158034068,
+      "value": "0x000000000000000000000000d2f8c50858654ea0f81978b632288cb7ca93fc10"
+    }
+  ],
+  "catalog_listed_Pool_Impl": "0x0353b6221b23b8320202320ca450eeb9fb0de9e5",
+  "limit": "Implementation identity comparison only; current implementation source verification and any earlier upgrade history not established."
+}

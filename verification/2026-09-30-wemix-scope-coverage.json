@@ -1,0 +1,67 @@
+{
+  "schema": "vesper.scope-coverage/v1",
+  "reviewed_at": "2026-09-30T15:53:23Z",
+  "target": "Chainlink Ethereum–Wemix USDC published route",
+  "scan": {
+    "command": "./.venv/bin/python -B -u -m bounty_radar scan --no-alerts --progress --json",
+    "exit_code": 0,
+    "digest": "digests/2026-09-30.md",
+    "digest_generated_at": "2026-09-30T15:47:35.038470+00:00",
+    "repositories": 18,
+    "sources": 18,
+    "failed_sources": [
+      {
+        "source": "broad-hackenproof-programs",
+        "errors": [
+          "broad-hackenproof-programs: browser fetch failed: browser fetch exceeded 58000ms wall-clock timeout"
+        ]
+      },
+      {
+        "source": "hackenproof-programs",
+        "errors": [
+          "hackenproof-programs: browser fetch failed: browser fetch exceeded 58000ms wall-clock timeout"
+        ]
+      },
+      {
+        "source": "hackenproof-audits",
+        "errors": [
+          "hackenproof-audits: browser fetch failed: browser fetch exceeded 58000ms wall-clock timeout"
+        ]
+      }
+    ],
+    "empty_successful_sources": [
+      "github-direct-web3-programs",
+      "bountyhunters-recent",
+      "bountyhunters-yeswehack-recent",
+      "cantina-competitions",
+      "sherlock-contests",
+      "code4rena-audits",
+      "codehawks-contests"
+    ],
+    "nonempty_successful_sources": 8,
+    "alerts_sent": 0
+  },
+  "manual_index_visibility": {
+    "status": "accessible_nonempty_not_complete_pagination",
+    "urls": [
+      "https://hackenproof.com/programs",
+      "https://hackenproof.com/audit-programs"
+    ]
+  },
+  "overall_coverage": "degraded",
+  "directory_comparison": {
+    "baseline": "395e15ad70b8616351ac941acc599c82eac0a9ef",
+    "current": "463cadabbcbb4da6255a6e7f03635d8085894c33",
+    "route_projection_equal": true,
+    "route_sha256": "044618671ae83e4aece3d04699eb79833292c1b2e206dc84e43b1e08e3ac09dd",
+    "token_projection_equal": true,
+    "token_sha256": "ae1b9a7fabf8a82789affc0a96387ff9cdb368b0cd86e36d3524304f290f7068"
+  },
+  "program_updated_at": "2026-09-30T06:23:39.708Z",
+  "disposition": [
+    "CURRENT_SCOPE_VERIFIED_CCIP_EVM_GROUP",
+    "NO_MATERIAL_SCOPE_DELTA",
+    "COVERAGE_GAPS_LEGACY_WEMIX_RUNTIME"
+  ],
+  "no_security_finding": true
+}

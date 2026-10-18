@@ -1,0 +1,15 @@
+{
+  "goal": "Continue the paid bounty hunt for a validated eligible Critical, High, or strong Medium without relying on GitLab's unavailable HackerOne Signal-1 report route.",
+  "exact_stopping_point": "Netflix MSL JWK-ladder revocation PoC was already completed; protected deployed consumer remains UNKNOWN/HOLD. Kubernetes mixed-OS subPathExpr host-path theory was source-falsified. WooPayments' plugin-local public underpaid-intent path was source-falsified; external WooPay handoff remains UNKNOWN. Current Netflix and Automattic program checks are open/paid/Signal-0. No new finding or report.",
+  "completed": [
+    {"text": "Kubernetes mixed-OS path escape source-falsified.", "evidence": "audit_targets/kubernetes-v1370-fresh-h1-20261006/HUNT_STATUS.md"},
+    {"text": "WooPayments plugin-local underpayment route source-falsified.", "evidence": "audit_targets/woopayments-v1110-h1-20261007/HUNT_STATUS.md"},
+    {"text": "No-Signal rotation index updated.", "evidence": "bounty-radar/verification/2026-10-07-no-signal-rotation.md"}
+  ],
+  "verification": [
+    {"text": "v1.37.0/v1.37.1 Kubernetes path files had no diff; no Windows runtime test.", "evidence": "audit_targets/kubernetes-v1370-fresh-h1-20261006/HUNT_STATUS.md"},
+    {"text": "Pinned WooPayments 11.1.0 checkout clean; no WordPress/Stripe runtime test.", "evidence": "audit_targets/woopayments-v1110-h1-20261007/HUNT_STATUS.md"},
+    {"text": "Prior Netflix JWK two-test JUnit receipt checked, not rerun.", "evidence": "audit_targets/netflix-msl-h1-20261006/HUNT_STATUS.md"}
+  ],
+  "next_action": "Select a current paid no-Signal source asset or distinct unreviewed surface. Verify official scope and source pin, then run one bounded local diagnostic. Do not repeat Netflix JWK, Kubernetes mixed-OS path, or plugin-local WooPay intent creation; defer GitLab until the account gate changes."
+}

@@ -1,0 +1,2389 @@
+{
+  "source_catalog_sha256": "fb1f931ff1c979097ea625247f800149c2519fafe61ff17448a520eeb9a0d32f",
+  "chain": "ethereum",
+  "rpc": "https://eth.drpc.org",
+  "range": [
+    26104625,
+    26164624
+  ],
+  "window_size": 100,
+  "successful_windows": 600,
+  "errors": [],
+  "catalog_unique_addresses": 1013,
+  "total_events": 22373,
+  "counts": {
+    "RoleGranted": 2287,
+    "RoleRevoked": 321,
+    "OwnershipTransferred": 13735,
+    "BeaconUpgraded": 5364,
+    "AdminChanged": 368,
+    "Paused": 167,
+    "Unpaused": 131
+  },
+  "matches": [
+    {
+      "type": "Paused",
+      "address": "0x338e0a8008364a4d5139cb49e00e93bdb51290d6",
+      "block": 26104848,
+      "tx": "0x55a806238d306ed4062397e600cf18b818e567e0caf9b36f28c933ae446e5c6e",
+      "topics": [
+        "0x62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258"
+      ],
+      "data": "0x000000000000000000000000e7ab2b0f8a205670d247528829092a552475788b",
+      "assets": [
+        {
+          "project": "Pareto Credit",
+          "slug": "pareto",
+          "asset_id": "100955",
+          "url": "https://etherscan.io/address/0x338e0a8008364a4d5139cB49E00e93bDb51290d6"
+        }
+      ]
+    },
+    {
+      "type": "Unpaused",
+      "address": "0x7a4e728b9febec04de724821eb9056828c2d1c06",
+      "block": 26112624,
+      "tx": "0x97b4fcd8f7bb85916fe5f84e99ea5490ff7fe359317ed8bdd573fa29c8fe146b",
+      "topics": [
+        "0x5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa"
+      ],
+      "data": "0x000000000000000000000000ea173648f959790baea225ce3e75df8a53a6bde5",
+      "assets": [
+        {
+          "project": "Pareto Credit",
+          "slug": "pareto",
+          "asset_id": "100952",
+          "url": "https://etherscan.io/address/0x7A4E728B9fEbec04de724821eb9056828C2D1c06"
+        }
+      ]
+    },
+    {
+      "type": "Paused",
+      "address": "0x7a4e728b9febec04de724821eb9056828c2d1c06",
+      "block": 26112630,
+      "tx": "0xef7854e7aea9eaacd4e86fc82e8547d39a418288fd1ecaaf376339a67b1cb931",
+      "topics": [
+        "0x62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258"
+      ],
+      "data": "0x000000000000000000000000ea173648f959790baea225ce3e75df8a53a6bde5",
+      "assets": [
+        {
+          "project": "Pareto Credit",
+          "slug": "pareto",
+          "asset_id": "100952",
+          "url": "https://etherscan.io/address/0x7A4E728B9fEbec04de724821eb9056828C2D1c06"
+        }
+      ]
+    },
+    {
+      "type": "Unpaused",
+      "address": "0x14b8e918848349d1e71e806a52c13d4e0d3246e0",
+      "block": 26125026,
+      "tx": "0xd41cd831a061f20cb6a6006e0f9dae0cb86d17e5331319a002f48ed67a3411a3",
+      "topics": [
+        "0x5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa"
+      ],
+      "data": "0x000000000000000000000000ea173648f959790baea225ce3e75df8a53a6bde5",
+      "assets": [
+        {
+          "project": "Pareto Credit",
+          "slug": "pareto",
+          "asset_id": "100940",
+          "url": "https://etherscan.io/address/0x14B8E918848349D1e71e806a52c13D4e0d3246E0"
+        }
+      ]
+    },
+    {
+      "type": "Unpaused",
+      "address": "0xf6223c567f21e33e859ed7a045773526e9e3c2d5",
+      "block": 26126914,
+      "tx": "0x6c9fc7632a2dcc04e63147743d69879b0f8856cd91f46e30fd299b3e25fe48fb",
+      "topics": [
+        "0x5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa"
+      ],
+      "data": "0x000000000000000000000000ea173648f959790baea225ce3e75df8a53a6bde5",
+      "assets": [
+        {
+          "project": "Pareto Credit",
+          "slug": "pareto",
+          "asset_id": "100933",
+          "url": "https://etherscan.io/address/0xf6223C567F21E33e859ED7A045773526E9E3c2D5"
+        }
+      ]
+    },
+    {
+      "type": "Paused",
+      "address": "0x1b67d0e31eeb6b52d8eeed71d3616c2f5b33b8e7",
+      "block": 26130729,
+      "tx": "0x26ba5774fd8903f18d6b4add94f86cb08b02ffdb6c3f55526cb56cc23cee2b43",
+      "topics": [
+        "0x62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258"
+      ],
+      "data": "0x0000000000000000000000009a6ebe7e2a7722f8200d0ffb63a1f6406a0d7dce",
+      "assets": [
+        {
+          "project": "Decentraland",
+          "slug": "decentraland",
+          "asset_id": "99569",
+          "url": "https://etherscan.io/address/0x1b67d0e31eeb6b52d8eeed71d3616c2f5b33b8e7"
+        },
+        {
+          "project": "Decentraland",
+          "slug": "decentraland",
+          "asset_id": "99573",
+          "url": "https://etherscan.io/address/0x1b67d0e31eeb6b52d8eeed71d3616c2f5b33b8e7"
+        },
+        {
+          "project": "Decentraland",
+          "slug": "decentraland",
+          "asset_id": "99577",
+          "url": "https://etherscan.io/address/0x1b67d0e31eeb6b52d8eeed71d3616c2f5b33b8e7"
+        },
+        {
+          "project": "Decentraland",
+          "slug": "decentraland",
+          "asset_id": "99581",
+          "url": "https://etherscan.io/address/0x1b67d0e31eeb6b52d8eeed71d3616c2f5b33b8e7"
+        },
+        {
+          "project": "Decentraland",
+          "slug": "decentraland",
+          "asset_id": "99585",
+          "url": "https://etherscan.io/address/0x1b67d0e31eeb6b52d8eeed71d3616c2f5b33b8e7"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26133198,
+      "tx": "0xe08710da8ee2de1ad253ae9d9ea47526a748ad1aa98f1bc0952cfe30d20d0090",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000d26436766da9e311273160d08185c524d6568ad4",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26133198,
+      "tx": "0xaaac2fd1fec86881b110fb17e8f5bb6e297e762b37e3039d1a58efced6051200",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000d26436766da9e311273160d08185c524d6568ad4",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "Unpaused",
+      "address": "0x9cf358aff79dea96070a85f00c0ac79569970ec3",
+      "block": 26133750,
+      "tx": "0x947b9404342ae2fd8e52faeb0326c939976f71c5af94e6ee3801e696190bfb19",
+      "topics": [
+        "0x5db9ee0a495bf2e6ff9c91a7834c1ba4fdd244a5e8aa4e537bd38aeae4b073aa"
+      ],
+      "data": "0x000000000000000000000000ea173648f959790baea225ce3e75df8a53a6bde5",
+      "assets": [
+        {
+          "project": "Pareto Credit",
+          "slug": "pareto",
+          "asset_id": "100948",
+          "url": "https://etherscan.io/address/0x9cF358aff79DeA96070A85F00c0AC79569970Ec3"
+        }
+      ]
+    },
+    {
+      "type": "Paused",
+      "address": "0xf6223c567f21e33e859ed7a045773526e9e3c2d5",
+      "block": 26134376,
+      "tx": "0x9a9625e95da6738fc7a8c513778494538eeb122128f3e12c6bf7badd0f15edc7",
+      "topics": [
+        "0x62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258"
+      ],
+      "data": "0x000000000000000000000000ea173648f959790baea225ce3e75df8a53a6bde5",
+      "assets": [
+        {
+          "project": "Pareto Credit",
+          "slug": "pareto",
+          "asset_id": "100933",
+          "url": "https://etherscan.io/address/0xf6223C567F21E33e859ED7A045773526E9E3c2D5"
+        }
+      ]
+    },
+    {
+      "type": "Paused",
+      "address": "0x14b8e918848349d1e71e806a52c13d4e0d3246e0",
+      "block": 26134379,
+      "tx": "0x460be94925ad9618e3a3c8e57cd65d2464a6f0229f06079b419e65978db4a757",
+      "topics": [
+        "0x62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258"
+      ],
+      "data": "0x000000000000000000000000ea173648f959790baea225ce3e75df8a53a6bde5",
+      "assets": [
+        {
+          "project": "Pareto Credit",
+          "slug": "pareto",
+          "asset_id": "100940",
+          "url": "https://etherscan.io/address/0x14B8E918848349D1e71e806a52c13D4e0d3246E0"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26134391,
+      "tx": "0xea3da7a06c9c2e131e1e6b8db8766c0aece56e67dd0be61e1d2ba1967394cd58",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000617e3d5a61798fadff0b7c4f62ff293dc990073e",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26134391,
+      "tx": "0x7dc2ed75b0a0a39df070af963f16588dcca0250fa62e7f20145effc788a9f248",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000617e3d5a61798fadff0b7c4f62ff293dc990073e",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26134405,
+      "tx": "0x434fd5af8fb578a5c5b3daf3860b06428f68c543303499236a1735424b02ce57",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000dd2644f9e26e0b9a17b95781bf846bc1e3d769ea",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26134405,
+      "tx": "0x2e8fa34a766a6e5dc156e57cccf336b3b72305b68bee47712dca703361a3d398",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000dd2644f9e26e0b9a17b95781bf846bc1e3d769ea",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26134416,
+      "tx": "0x5df804c9abf3a9835501fc41932a740f76fb7d4ba8b56fd5c6f1e2fd313b12b6",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x00000000000000000000000050e60bf31f3acf65696249a8b5d1a56a0ce4737c",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26134416,
+      "tx": "0x25ec937e6f6809bc9446c778acdfecdb89d977ad7ae0d144f856298d6acb5699",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x00000000000000000000000050e60bf31f3acf65696249a8b5d1a56a0ce4737c",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26134421,
+      "tx": "0x2975eeea749746adbf6102803bd5549dccdf43db653e4de8eb065ccfcac1fac3",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000001d7b6a1c553d8bd6171a5cf3cc50a0a6dde4edfc",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26134421,
+      "tx": "0x455a14bc9bfc1aff8575d98e7e771ed52a44901c88b3eb1781a158ed277b4bf3",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000001d7b6a1c553d8bd6171a5cf3cc50a0a6dde4edfc",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26134441,
+      "tx": "0xe582b0e9681c609d7c4d42bc7571dacefe574091179024f86df1fb64b710b3ef",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000c424433b25510739fb5a7b386261e048b9e96049",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26134441,
+      "tx": "0xbfab9a56703d6c22d9232e1fbe70bb32059a1d6de4c9d81a3369b1804636eb8d",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000c424433b25510739fb5a7b386261e048b9e96049",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26134696,
+      "tx": "0x43a29f515bfdafe622776b3ac2dec3284f695cce20c8e678823a557b29881fa9",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000007a8ff15d85fd3e4240ad22c617f7d6f25054a61e",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26134696,
+      "tx": "0x2fd0ddc03cc33dfc59af83d00deac175ab3c5f289d7bf0489fde2f7d75a40629",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000007a8ff15d85fd3e4240ad22c617f7d6f25054a61e",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26134707,
+      "tx": "0x8602d60ad78729cb2225a1ac5f94a7285ebd6a633a80b36fc23aac873f9f6780",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000ec6e1bb60a4c8c6fec30128d6d8a170b3a68cace",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26134707,
+      "tx": "0x15e9059c09199b7afa34a9d7d83b8978a2e01af82bf54710da171c20c23f60f0",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000ec6e1bb60a4c8c6fec30128d6d8a170b3a68cace",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26134713,
+      "tx": "0xcaa4c80b37a40c072bdbfc2921d682c7cd73af1ab5e0b1a41449eef6196d0ac8",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000eff9a08a8be9b1ed379d0e145fe0bbe304266175",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26134713,
+      "tx": "0x539fd346f2e8eb14e8fa664ce7235ff3fceca6d4df7af3aae65808b467273036",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000eff9a08a8be9b1ed379d0e145fe0bbe304266175",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26134716,
+      "tx": "0x8f811ce29cc3929871a3658a214e276b0045093085140f55408492f1963b5331",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000005ebbdb6a287a7b080f8dd324fe943db03c31b105",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26134718,
+      "tx": "0x07184528a4b0348e739ebe409e83bfeb0634dd215c4fae946a70925931157de3",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000005ebbdb6a287a7b080f8dd324fe943db03c31b105",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26134729,
+      "tx": "0x30a91f55aa7056c2a6cb52f4278b1e3e7ecfe894959d814bafd40869654b84c1",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000000e27023a218f06a1477f7107a4ba7adcef482e39",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26134729,
+      "tx": "0x026e1edde991cde601db774e903adaf8c18bfbcca818d4ba854ba29b0609dc54",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000000e27023a218f06a1477f7107a4ba7adcef482e39",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135004,
+      "tx": "0x313756684c7b7c463f631bb77b03a3a42c6e3f9246c6a0d986a814fdf12e04cb",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x00000000000000000000000087e5c6c658ed443fa09b9cdc9214219b2ee75072",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135004,
+      "tx": "0xe8a71353eaa72a9d6bc2e933e3842149d94ed42da260811a434ccd2ece287784",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000f8f1b425be72e940f82b74fb9ae3c90ddecb5cae",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135008,
+      "tx": "0x74d49ce30718dc32d318285fa539d593014ead3a2ac28197f92a2915309055c9",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000abf1c77e5790925be4971c9781d08103d765bb2b",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135008,
+      "tx": "0x53d436e8bcc8811624a9c1284988c77bb42fedd5e11d783a4612a388dabacf39",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000abf1c77e5790925be4971c9781d08103d765bb2b",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135012,
+      "tx": "0xb75096b0f8aff6578e0917d886ccc8469b2c782fb2ef816cf0aaebe453dd1a63",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000000e09a55032b8d641942a439155741fc9a0da9a1d",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135012,
+      "tx": "0x48023918de477bf1f6e6c496e1ab725cab4c560de9c0f5d1a5c7d8dbbbd5d875",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000000e09a55032b8d641942a439155741fc9a0da9a1d",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135017,
+      "tx": "0x6bd3b070f1e5ad911e270b42e07fea35b1b39c461d1a09a248ec84c90cbbb4ac",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000007ebf81733c8bd0caa35384f48c4547ac8116c13b",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135017,
+      "tx": "0xec79f84e70f5da3d4cedda78670c2da75fccd414d2af20009f3e2548322b94a3",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000007ebf81733c8bd0caa35384f48c4547ac8116c13b",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135021,
+      "tx": "0xc92a54b23aaad90ae31ee5c73f95a103c57e3078586ca6be309092ad7850d456",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000d2bfd16531f8a71ecb40a7228015430d49cc5566",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135021,
+      "tx": "0x079f64b2429de063e8ad68f7577a77f72164d9fdab3faf5dc4f627f3eace3f02",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000d2bfd16531f8a71ecb40a7228015430d49cc5566",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135029,
+      "tx": "0x929f1610797ac722f21a5ffcbe7b412101da8ab891e8904d8757efdd8a30efd5",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000136f0b801a83c82e8bb98edfba57c64cd25186ae",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135029,
+      "tx": "0x6e63be6a43d385bcf4cc20015ed2be8ad9318ecc6f40cf8189ca5c095143d16d",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000136f0b801a83c82e8bb98edfba57c64cd25186ae",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135287,
+      "tx": "0xa5fe8fe26b1ddaf483ea9b9ce3a8d868a2f946352065a444f239eec58d26441d",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x00000000000000000000000087e5c6c658ed443fa09b9cdc9214219b2ee75072",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135294,
+      "tx": "0xf4758812e88df01a6cd7cccf6621a63c6f77b21de7b4d4ecb4f5e865c1b8831b",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000f8f1b425be72e940f82b74fb9ae3c90ddecb5cae",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135309,
+      "tx": "0xd01fdc3c716e58f25bd77258676859828b88d6c62755308840781240bee4812d",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000008997ef7f1412b849401f142dd40037f535dea0ad",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135309,
+      "tx": "0xe0cf0f5c987e5e149f686a2ec7cbf363341c7fc267e89a0da28b3f35424d9185",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000008997ef7f1412b849401f142dd40037f535dea0ad",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135314,
+      "tx": "0xa393040f6f60ae41805bbc5b5257f7569b682dca4187a3c66a19c901a580e8c0",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x00000000000000000000000000662b93f42c16e030f538bb8c0de2297b90f6e0",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135314,
+      "tx": "0x840f0ce207aa0e2b0cd188d33e5a056f1d0decce6abcc65a67dd037c728c4319",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x00000000000000000000000000662b93f42c16e030f538bb8c0de2297b90f6e0",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135317,
+      "tx": "0xad84aad25c4703893974f56ee409e8f4488770c993addb3d33c66343facd130e",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000683fee33f7a4d6b918431fcf8d09081ae039951f",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135324,
+      "tx": "0xf7f44f3de2e0dabea9b60c3af31acc669cb087fc92e19cbc21a7e824f7b90b24",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000683fee33f7a4d6b918431fcf8d09081ae039951f",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135329,
+      "tx": "0xef153c23027d821c3c493275b299c421b5b27e165b779ec72b42cfb8728ae352",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000008e4e09d49f600c5f050c8130ac034dcf0ed6c658",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135329,
+      "tx": "0x72cbe803b41b7ebff27d9c2edb390ea4ca9ba7285274c6bb8f59b215c56dfdde",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000008e4e09d49f600c5f050c8130ac034dcf0ed6c658",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135587,
+      "tx": "0x87a420b69ca56a9bb11eda8dfedd8237f67156901e8f6313a2976565467dfe1d",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000008b524cf0b0091b33e7888c52cd1eb88159862bc6",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135587,
+      "tx": "0xa77ee31b1bac5562bc54964aa93f6d9a4f6200a39f5ac66ac5e7422fb1c34758",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000008b524cf0b0091b33e7888c52cd1eb88159862bc6",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135600,
+      "tx": "0x496d22c3e73dc85de9e466e5323fcbf12866f9598e39c2bd870f01a0baea6897",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x00000000000000000000000021983b620d811ba255e9b5358008155985a4eada",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135602,
+      "tx": "0xdfa80c1e6abdfc3471feb0cbc93a465b9a91caa930558a6299e7abf9e1144df4",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x00000000000000000000000021983b620d811ba255e9b5358008155985a4eada",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135606,
+      "tx": "0x2943e8e888b3d93d8f2fa1088fe6fdd26654077ab3f5f2cadab947012008d8d0",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000000a85fdb56360d0c5456e36d15a7e67ac5206af89",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135606,
+      "tx": "0x28fda6cbcf9d3fc45713a374dc6cac50cf3f3565c29e274c093d00f5a7a0af34",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000000a85fdb56360d0c5456e36d15a7e67ac5206af89",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135618,
+      "tx": "0x2907ca5c841c3671d1b9c584f0700459ba95cff31c8563ba69c60fc81a11d027",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x00000000000000000000000097a45f82fc28d4c305dbbcac910592d606d8ef6b",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135618,
+      "tx": "0x4368159c6ff927add8f1c4f9f40b44f33723887a66dbddf36293e4b15f1e5516",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x00000000000000000000000097a45f82fc28d4c305dbbcac910592d606d8ef6b",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135623,
+      "tx": "0xdb24ce4ccf54e73beacd3973e7ec06fbbfb917f73eed05f05f0f990075d93745",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000fee2a32ede1c86588b49e6773097de469eafdfd4",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135623,
+      "tx": "0x7f45627827d6f9dac7566d90a8e7b48ac7ea4d2fb9d86097a49d7927ddc63087",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000fee2a32ede1c86588b49e6773097de469eafdfd4",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26135626,
+      "tx": "0xef8f58177fada079bf22562000a489c8861c128b5de52e7a86cc3b03e809f64f",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000d2bba888aa5f3ce59e4ff4b216ba90c3da5e2e26",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26135629,
+      "tx": "0x42a2fa74b99b84e78ff2dc418c76c14701e8bbea5681a8220dd6fec8ccae2d53",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000d2bba888aa5f3ce59e4ff4b216ba90c3da5e2e26",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "Paused",
+      "address": "0x9cf358aff79dea96070a85f00c0ac79569970ec3",
+      "block": 26138706,
+      "tx": "0xa299c5af278790b0a4c3484c1eb2d287f944496bebdab808859eb390a39baa43",
+      "topics": [
+        "0x62e78cea01bee320cd4e420270b5ea74000d11b0c9f74754ebdbfc544b05a258"
+      ],
+      "data": "0x000000000000000000000000ea173648f959790baea225ce3e75df8a53a6bde5",
+      "assets": [
+        {
+          "project": "Pareto Credit",
+          "slug": "pareto",
+          "asset_id": "100948",
+          "url": "https://etherscan.io/address/0x9cF358aff79DeA96070A85F00c0AC79569970Ec3"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26141863,
+      "tx": "0x5cc33955f1c1b30e060d4dbffa18d35ce872f0203e5430f44db16e608327dd3d",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000007d6d34f698ae394bad6883e4918f675b1ab32ef4",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26141863,
+      "tx": "0x633b25dd704c210f4baf97df5dc01771cb2019461f38d4355d38438fd2514e79",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000007d6d34f698ae394bad6883e4918f675b1ab32ef4",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26141866,
+      "tx": "0x310b648ddf856db68339717a12c545f4eaf83266acb022bf0e24bc5ef7cd2351",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000005d9fbad65310ffa36a5d25a48aeb356e25bf0fc0",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26141866,
+      "tx": "0x340055aacb285d2b3e74a827fc6c0386b3b2c40b63b8c29dcb6219030491964b",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000005d9fbad65310ffa36a5d25a48aeb356e25bf0fc0",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26141869,
+      "tx": "0x6cadbdf54077bf3fe8a5f800c8a5d89638b1c98cf83cd2f7695d31f4a171619b",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x00000000000000000000000004087761ab33206719e2fccacd38b50a3e62279f",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26141869,
+      "tx": "0xde99644c08210dc15e63263e80cea0fcbcc37b9cfe6b6fa93a48ba041832853b",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x00000000000000000000000004087761ab33206719e2fccacd38b50a3e62279f",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26141872,
+      "tx": "0x761e7963ba087e6663293f20cadb9beccdaa6fb8466a2251667c4edbd124cd30",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000dbc8b85b86a0bdfa51c819722a960d4d5a28e306",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26141872,
+      "tx": "0x23238afa6fc0f433db79f1de07adf76685976203a22831e88c06b23232b61052",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000dbc8b85b86a0bdfa51c819722a960d4d5a28e306",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26141875,
+      "tx": "0xf113f48a0723ad8380bca87568b4ee9baefc682a5e1b9c6be88f45e75e6a25b7",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000004f62a53e55cfc138728c4b5d8aca38ca37b79aaa",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26141875,
+      "tx": "0x7ff33d244d7781afa78e7aeec02307806b18766c85721c5603eaef7182bd3d66",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000004f62a53e55cfc138728c4b5d8aca38ca37b79aaa",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26141879,
+      "tx": "0x3a14be8b6fdc7f114cfa92b99f4cb0660b2aa9919319f0c0c35356beba3c3862",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000f9288d61800f37d6bcff27a060f1424c9d379264",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26141879,
+      "tx": "0xd386f48e0dea21bc022405b33569b33ea4146223c0268401b1ba805818e20ba3",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000f9288d61800f37d6bcff27a060f1424c9d379264",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26141884,
+      "tx": "0xa01a6ac47abcb3d82a4bccc6fb1fb1be7c33e21d7e775e47c29a62126b216147",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000001a48a68dc153cf4ebec32fa3f006656e495865c4",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26141884,
+      "tx": "0x3f8507b021faaf6f5496f14fbbaaf1df0f9f044bf4738fd7e3c24da1d4eba74b",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000001a48a68dc153cf4ebec32fa3f006656e495865c4",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26141887,
+      "tx": "0x5b519ccb762e07dc0b8eeb80801ff1cc592ae229ccea27b8c122cec81113c8d6",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000000815133143a29e2376ab64746e41db537e683bc0",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26141887,
+      "tx": "0xb499de36f643f5ce751e985274d03bc647d228cd2d1cb7a95b87d5f47886cf29",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000000815133143a29e2376ab64746e41db537e683bc0",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26141892,
+      "tx": "0xb58e79623a9aa21a51fdf7ec7b706795989a1856cf46044c7959f3f6a32bd8a7",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x00000000000000000000000067fb642130f95445c676bf9cf1566e5cbd733114",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26141892,
+      "tx": "0xaf3489f76f5859583b2fdf81b2a85fc73a0986e81095d37e4ca7fedad7a6a7cb",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x00000000000000000000000067fb642130f95445c676bf9cf1566e5cbd733114",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26142163,
+      "tx": "0x9c147e3fe29df21bb6413bfdde456c89d51c53cd30d40588b2bb4280207de3b4",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000f8cabb54dc30d480c7716fb336bd8226dc39b5c4",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26142163,
+      "tx": "0x813bdfedeb9194bee88edb93858529a8673cb6d3cba6854fc70585dec5c16193",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000f8cabb54dc30d480c7716fb336bd8226dc39b5c4",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26142168,
+      "tx": "0x8297d9cc843fdd0bb0c9aebe6e41a5da2c0823ad17608b960d01991d1aca8b24",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000bb955ca98a72709ad11c96d885c394bf5a9384ae",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26142168,
+      "tx": "0x54b7b8f84cea0ef6f082bedaae5845badfe0a3341f6366f4631bebfb45d24668",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000bb955ca98a72709ad11c96d885c394bf5a9384ae",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26142179,
+      "tx": "0xf81588c0206e0518afc5dd0ef7b146f6c6fea5e8ba62c467ecaa6abde9115ad4",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000daa4393013f359fd63a133a3b893d311aba4e471",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26142179,
+      "tx": "0xf058c7c9a24fbdd8007ea1d537ea4fcc5c5f9bcd34daac2312a6cc5f3e80fad1",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000daa4393013f359fd63a133a3b893d311aba4e471",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26142182,
+      "tx": "0x39b3161223f3dd14fecaeab271eff23a894b0edfafc37551e015d53624d023d5",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000000b69e96575ba6b0d70e839994feb0e509426a1ab",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26142185,
+      "tx": "0x793e8d56d83023ca3a5d4f4d53f881c29e4ebd9e08b4fca465cb95da22ade8e3",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000000b69e96575ba6b0d70e839994feb0e509426a1ab",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26142191,
+      "tx": "0x07bbd061e54b860ba71f86e6c6de8f9543c6a07a6f534bc63e046a00a4f60b16",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000007f0f6106cf59cd33a6f7ccba8aaf84289abed273",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26142191,
+      "tx": "0xacebf3fd91f3262f427a093728d9ce65592d979f9eee504daea65fab2b469520",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000007f0f6106cf59cd33a6f7ccba8aaf84289abed273",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26148753,
+      "tx": "0xcdb1d69d7f906fda0a3c8cbbc11749cd8865f42681c824379cc485a4e84075fa",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000003c0467876b7f093c4cdb22bbb167ed1cd7e6a608",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26148753,
+      "tx": "0x4f6f2af35baa0a25a9bdec7429bb0de3a4b35eff92c293a9c2380c2732cfa905",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000003c0467876b7f093c4cdb22bbb167ed1cd7e6a608",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26149046,
+      "tx": "0xd368713b68c7abef5d0f959597fbd965722c7d38b75c24f524368583c9237ef0",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x0000000000000000000000008ebbd4240500861ff28b41323f6fbd64122797ee",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26149055,
+      "tx": "0x9cff570af0ba8976072292de5737cc1c40c70a863bc3b80a0bed0a5d2832f5ea",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x0000000000000000000000008ebbd4240500861ff28b41323f6fbd64122797ee",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "block": 26155620,
+      "tx": "0x8b93e562b9a9964923284835afd8e2a073893a231477dcad4d2a7c75e0d9b976",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x0a4af4bcc1942295207d9f047442ebdae6170a6e324850f758b14cf99b65c3bd",
+        "0x000000000000000000000000123ed9836f354ff4fd092b05394a875b9aa2d735",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "5r093sG53BiuHEPz76Geth",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        },
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "2EOVeSLznLVWhVCnPRRBAq",
+          "url": "https://etherscan.io/address/0x9d39a5de30e57443bff2a8307a4256c8797a3497"
+        }
+      ]
+    },
+    {
+      "type": "RoleGranted",
+      "address": "0x8be3460a480c80728a8c4d7a5d5303c85ba7b3b9",
+      "block": 26155620,
+      "tx": "0xa23b59db5f0b636525db3d100c6054a9475d8883a7d1115dc947a5c81bada03e",
+      "topics": [
+        "0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d",
+        "0x548c7f0307ab2a7ea894e5c7e8c5353cc750bb9385ee2e945f189a9a83daa8ed",
+        "0x000000000000000000000000123ed9836f354ff4fd092b05394a875b9aa2d735",
+        "0x00000000000000000000000049e9f81a5ce0d492799c14049aef12df7bc955fe"
+      ],
+      "data": "0x",
+      "assets": [
+        {
+          "project": "Ethena",
+          "slug": "ethena",
+          "asset_id": "1rwKRZ9HBT8ud99W7WgzL2",
+          "url": "https://etherscan.io/address/0x8bE3460A480c80728a8C4D7a5D5303c85ba7B3b9#code"
+        }
+      ]
+    }
+  ]
+}

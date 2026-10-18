@@ -1,0 +1,25 @@
+{
+  "goal": "Continue the private paid hunt for an eligible High or strong Medium, respecting current official scope and the user's external-action boundaries.",
+  "exact_stopping_point": "XOXNO's independent liquidation-credit and cash-flash stale-cache ideas were source-falsified; host 28.0.2 bars reentry. MailPoet's pinned 5.40.0 synthetic automation/queue-coupon harness reran 36/36; 12 relevant files match current 5.41.0 tag bytes, and a WooCommerce coupon-validator branch check passed. No real B queue-ID acquisition, send, checkout, merchant loss, or report. New source defaults to Extreme SSD; its Vesper-Heavy-Work/targets parent was prepared and verified on 2026-10-08. Recheck it before acquisition; no fallback.",
+  "next_action": "Preserve MailPoet HOLD. With the exact Extreme SSD source parent prepared/verified, build a disposable current-release WordPress+MailPoet+WooCommerce fixture and test ordinary A/B queue discovery plus same-state coupon redemption; stop if no reliable B ID or incremental loss. Otherwise rotate to another existing scoped source with a distinct cheap test. Do not submit or live-test.",
+  "completed": [
+    {
+      "text": "XOXNO credit and flash screens closed narrowly by source and current locked-host proof; no PoC or report.",
+      "evidence": "audit_targets/xoxno-lending-soroban-immunefi-20261007/HUNT_STATUS.md"
+    },
+    {
+      "text": "MailPoet local harness reran 36/36; current 5.41.0 relevant-file parity and Woo validator branch check recorded with limits.",
+      "evidence": "audit_targets/mailpoet-v5400-h1-20261006/diagnostics/2026-10-08-current-release-and-redemption-preflight.md"
+    },
+    {
+      "text": "Extreme SSD source parent prepared and verified on 2026-10-08; no new source acquired.",
+      "evidence": "storage-offload-records/20261008-extreme-source-parent-activation.json"
+    }
+  ],
+  "not_done": [
+    {
+      "text": "MailPoet B queue-ID acquisition, full current-release runtime, same-state checkout redemption and High impact remain unproved.",
+      "evidence": "audit_targets/mailpoet-v5400-h1-20261006/HUNT_STATUS.md"
+    }
+  ]
+}

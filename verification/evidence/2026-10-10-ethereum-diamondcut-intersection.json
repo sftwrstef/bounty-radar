@@ -1,0 +1,17 @@
+{
+  "catalog_sha256": "fb1f931ff1c979097ea625247f800149c2519fafe61ff17448a520eeb9a0d32f",
+  "chain": "ethereum",
+  "rpc": "https://eth.drpc.org",
+  "range": [
+    26104625,
+    26164624
+  ],
+  "window_size": 100,
+  "successful_windows": 600,
+  "errors": [],
+  "catalog_addresses": 1013,
+  "topic": "DiamondCut((address,uint8,bytes4[])[],address,bytes)",
+  "topic0": "0x8faa70878671ccd212d20771b795c50af8fd3ff6cf27f4bde57e5d4de0aeb673",
+  "total_events": 43,
+  "matches": []
+}

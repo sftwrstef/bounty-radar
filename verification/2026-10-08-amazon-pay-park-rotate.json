@@ -1,0 +1,25 @@
+{
+  "goal": "Continue the private, evidence-first hunt for an eligible High or strong Medium; no new submission or target contact without separate authorization.",
+  "exact_stopping_point": "Amazon Pay for WooCommerce 2.6.2 SNS finding is PARKED for payout. One owned AWS message passed the shipped parser and moved a synthetic order to processing; resources were absent on two later checks. A portable internal report bundles the offline PoCs. Automattic excludes standalone Medium broken access control unless chained to High/Critical; no real Woo entitlement or merchant impact was demonstrated, and no full Woo runtime is ready locally.",
+  "next_action": "Read bounty-radar/verification/2026-10-08-rotation-screen.md before scouting. No cleaner paid local-first pick emerged. Select a materially new scoped asset and run one cheap local diagnostic. Do not repeat Amazon AWS signing. Reopen Amazon only with a disposable WooCommerce lab or new first-party impact/scope evidence; v004 report review remains pending if promoted.",
+  "completed": [
+    {
+      "text": "AWS SNS owned-topic result and cleanup reconciled; no merchant or payment network contacted.",
+      "evidence": "audit_targets/automattic-amazon-pay-v262-h1-20261008/diagnostics/owned-sns-20261008T175003Z-4f579127/post-run-reconciliation.md"
+    },
+    {
+      "text": "Portable internal draft and scope/impact park decision recorded.",
+      "evidence": "audit_targets/automattic-amazon-pay-v262-h1-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "Read-only active-program and prior-Medium rotation screen recorded; no new test or submission.",
+      "evidence": "bounty-radar/verification/2026-10-08-rotation-screen.md"
+    }
+  ],
+  "verification": [
+    {
+      "text": "The new bundled offline PoCs are byte-identical to the frozen v003 scripts and pass current syntax checks; their full execution was not repeated in the new managed directory.",
+      "evidence": "audit_targets/automattic-amazon-pay-v262-h1-20261008/HUNT_STATUS.md"
+    }
+  ]
+}

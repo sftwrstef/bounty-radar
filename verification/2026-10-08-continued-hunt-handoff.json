@@ -1,0 +1,114 @@
+{
+  "goal": "Continue the authorized private/local hunt for an active payable High or strong Medium without submitting or contacting a target.",
+  "exact_stopping_point": "AWS SNS/SQS authorized but unrun: arc-rs178 expired, Mac locked, login waits; no cloud resources. PhotosDrive absent; scratch receipt mismatch. MailPoet 5.41.0 logic has positive synthetic cross-queue coupon disclosure with absent subscriber; full send/redemption unknown. ADI v0.30.2 reopened; LaunchDarkly, git-sync, Zoom remain conditional. Mattermost SPACE submitted by user.",
+  "next_action": "After AWS sign-in, verify STS account 239510186046; run only capped Amazon pocs/run_owned_sns_envelope.py with arc-rs178 in us-east-2 and reconcile cleanup. If exact PhotosDrive identity returns, admit current MailPoet 5.41.0 private two-timezone WP/Woo fixture and test coupon disclosure, queue-ID acquisition, redemption control. Retain Relay/Zoom/ADI; do not bypass stale storage receipts.",
+  "completed": [
+    {
+      "text": "Amazon bounded runner ready; 12/12 fake-client tests passed previously, independent safety review completed.",
+      "evidence": "audit_targets/automattic-amazon-pay-v262-h1-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "Proton URL-scheme web XSS idea falsified by ordinary-link and CSP browser controls; no exploit or report.",
+      "evidence": "audit_targets/proton-pass-web-bounty-20261008/diagnostics/url-scheme-falsifier-20261008.md"
+    },
+    {
+      "text": "Mattermost Zoom v2.0.0 current source and active paid scope reviewed; conditional fallback chain and prior collision recorded.",
+      "evidence": "audit_targets/mattermost-zoom-v1130-bugcrowd-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "ADI official scope changed to current deployed v0.30.2; source-only old bridge/replay falsifiers unchanged and bounded changed-path scout yielded no pick, without establishing a new finding.",
+      "evidence": "audit_targets/adi-stack-contracts-hackenproof-20260921/HUNT_STATUS.md"
+    },
+    {
+      "text": "Omarchy browser-policy arbitrary root-write idea was source-falsified; package-conflict parser has no supported lower-trust report for a bounty claim.",
+      "evidence": "audit_targets/omarchy-quattro-h1-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "LaunchDarkly published SDKs reproduce distinct-context canonical-key collision; first-party Relay v8.23.1 source verifies with the same pinned Go SDK, but no Relay execution or hosted claim.",
+      "evidence": "audit_targets/launchdarkly-securemode-bugcrowd-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "Kubernetes git-sync v4.7.1 source conditionally trusts a locally swapped worktree link for out-of-root cleanup; lower-trust writer and impact not established.",
+      "evidence": "audit_targets/kubernetes-git-sync-v471-h1-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "MailPoet 5.41.0 current-release core logic matches pinned tested source; local PHP composition creates two distinct one-use coupons and retrieves B's stored code using A's newsletter hash with subscriber fields omitted, while identified A-to-B access rejects. Synthetic persistence only; no full send or redemption.",
+      "evidence": "audit_targets/mailpoet-v5400-h1-20261006/HUNT_STATUS.md"
+    }
+  ],
+  "not_done": [
+    {
+      "text": "No AWS SNS/SQS resource creation, synthetic publish, real envelope verification, or cleanup has run.",
+      "evidence": "audit_targets/automattic-amazon-pay-v262-h1-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "No pinned-code Zoom two-occurrence test or deployed cross-channel impact proof has run.",
+      "evidence": "audit_targets/mattermost-zoom-v1130-bugcrowd-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "No complete testable ADI v0.30.2 source tree or current-pin executable test is available; external PhotosDrive identity is absent.",
+      "evidence": "audit_targets/adi-stack-contracts-hackenproof-20260921/HUNT_STATUS.md"
+    },
+    {
+      "text": "No local Relay verifier execution, hosted backend test, or proved ordinary-user signature acquisition; SDK-rooted scope remains unresolved.",
+      "evidence": "audit_targets/launchdarkly-securemode-bugcrowd-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "No complete MailPoet 5.41.0 WordPress/WooCommerce two-queue send, valid coupon redemption, or queue-ID acquisition proof has run; no report is ready.",
+      "evidence": "audit_targets/mailpoet-v5400-h1-20261006/HUNT_STATUS.md"
+    }
+  ],
+  "verification": [
+    {
+      "text": "Read-only STS check still returned expired session; remote AWS login PTY remains waiting for browser authorization.",
+      "evidence": "audit_targets/automattic-amazon-pay-v262-h1-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "Official Bugcrowd JSON confirms Zoom plugin in-scope and submissions enabled; GitHub latest release is v2.0.0.",
+      "evidence": "audit_targets/mattermost-zoom-v1130-bugcrowd-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "Official ADI HackenProof program now pins zkos-v0.30.2 at 9ddc915 and calls it current deployment; old v0.29.11 terminal scope mismatch is historical.",
+      "evidence": "audit_targets/adi-stack-contracts-hackenproof-20260921/HUNT_STATUS.md"
+    },
+    {
+      "text": "Mac remains locked and AWS STS expired; PhotosDrive absent. Storage scratch-check passes SSD identity, but a reserved harmless launch fails on stale source-device receipt before child execution.",
+      "evidence": "audit_targets/kubernetes-git-sync-v471-h1-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "MailPoet controller harness passed 7 assertions and coupon/queue-view harness passed; official MailPoet 5.41.0 package logic for the affected classes is unchanged, and official Automattic public metadata says open, bounty-enabled, Signal 0.",
+      "evidence": "audit_targets/mailpoet-v5400-h1-20261006/HUNT_STATUS.md"
+    }
+  ],
+  "commands_run": [
+    "aws sts get-caller-identity --profile arc-rs178 --region us-east-2: expired",
+    "git ls-remote mattermost/mattermost-plugin-zoom v2.0.0: peeled commit 3e036b23d5e0552894e45662009db5bb7046a695",
+    "tools/vesper-storage external-check: PhotosDrive absent, source checkout held",
+    "python3 -m unittest discover -s audit_targets/automattic-amazon-pay-v262-h1-20261008/pocs -p test_run_owned_sns_envelope.py -q: 12 tests passed",
+    "node local-poc/canonical-key-collision.cjs and legacy-requestor-local.cjs: both exit 0, local only",
+    "php pocs/VIEW-PREVIEW-QUEUE-001/test_preview_queue.php: 7 assertions passed",
+    "php pocs/VIEW-PREVIEW-QUEUE-001/test_coupon_generator.php: pass, two distinct saved one-use synthetic coupons and absent-subscriber B view"
+  ],
+  "deferred": [
+    {
+      "text": "Mattermost Zoom source-only survivor, with public root-mechanism collision risk.",
+      "evidence": "audit_targets/mattermost-zoom-v1130-bugcrowd-20261008/HUNT_STATUS.md",
+      "reopen_condition": "External source namespace restored, then paired pinned-v2 executable test and distinct-access impact evidence."
+    },
+    {
+      "text": "ADI current accepted pin is newly in scope; old bridge/replay lanes remain source-falsified, other changed paths open.",
+      "evidence": "audit_targets/adi-stack-contracts-hackenproof-20260921/HUNT_STATUS.md",
+      "reopen_condition": "Exact external source namespace restored, current-pin hydration and one bounded changed-path local diagnostic."
+    },
+    {
+      "text": "LaunchDarkly secure-mode SDK canonical-key collision with source-supported first-party Relay consumer.",
+      "evidence": "audit_targets/launchdarkly-securemode-bugcrowd-20261008/HUNT_STATUS.md",
+      "reopen_condition": "Safe source admission for local Relay test plus ordinary-user signature-acquisition and SDK-rooted scope evidence."
+    },
+    {
+      "text": "git-sync conditional out-of-root cleanup from a writable shared-root consumer.",
+      "evidence": "audit_targets/kubernetes-git-sync-v471-h1-20261008/HUNT_STATUS.md",
+      "reopen_condition": "Safe storage admission for temp-only test, supported lower-trust writable consumer, and incremental sidecar-only harm."
+    }
+  ]
+}

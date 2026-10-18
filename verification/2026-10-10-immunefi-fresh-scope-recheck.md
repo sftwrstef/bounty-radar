@@ -1,0 +1,19 @@
+# Immunefi fresh-scope recheck — 2026-10-10
+
+Read-only recheck at **18:46 UTC / 14:46 EDT**. Source of truth: Immunefi's [public bounty catalog](https://immunefi.com/public-api/bounties.json), cross-checked against the [program index](https://immunefi.com/bug-bounty/) and the current scope pages for [Enzyme Onyx](https://immunefi.com/bug-bounty/enzyme-onyx/scope/), [Twyne](https://immunefi.com/bug-bounty/twyne/scope/), [Folks Finance](https://immunefi.com/bug-bounty/folksfinance/scope/), and [ENS](https://immunefi.com/bug-bounty/ens/scope/). No authentication, submission, fee, enrollment, target contact, or live target transaction occurred.
+
+## Exact delta against the saved full catalog
+
+| Field | Preserved `/tmp/vesper-immunefi-bounties-20261010.json` (mtime 17:37 UTC) | Fresh official fetch at 18:46 UTC | Delta |
+| --- | ---: | ---: | --- |
+| Raw bytes | 6,460,188 | 6,460,188 | 0 |
+| SHA-256 | `fb1f931ff1c979097ea625247f800149c2519fafe61ff17448a520eeb9a0d32f` | same | none; parsed JSON also equal |
+| Program records | 232 | 232 | 0 |
+| Asset records | 6,950 | 6,950 | 0 |
+| Catalog revision | [October 9 baseline](2026-10-09-immunefi-fresh-scope.md) records latest `updatedDate` at 2026-10-09 13:53 UTC | response `ETag`: `W/"2026-10-09T13:53:37.555Z:232:232"` | no later catalog change |
+
+The full-catalog comparison is stronger than matching a page's `Last Updated` label: byte equality covers asset identifiers, addition dates, impact and reward records, exclusions, known issues, and participation fields present in the public catalog. The [index](https://immunefi.com/bug-bounty/) says its *metrics* were refreshed on October 10 at 16:35 UTC and displays 169 active bounties; that metrics timestamp does **not** establish an asset or rule expansion. The 232-record public catalog also includes records beyond the active-bounty index, so those counts are not contradictory.
+
+The latest asset additions in the full catalog remain the 26 rows dated October 5–9: one [Enzyme Onyx SyncRedeemHandler](https://immunefi.com/bug-bounty/enzyme-onyx/scope/) on October 9; two [ENS website assets](https://immunefi.com/bug-bounty/ens/scope/) on October 8; two [Twyne leverage operators](https://immunefi.com/bug-bounty/twyne/scope/) on October 6; and 21 [Folks Finance Algorand apps](https://immunefi.com/bug-bounty/folksfinance/scope/) on October 5. **Zero asset records have an `addedAt` date later than October 9.** These additions and their already-bounded research gates are documented in the [October 9 reconciliation](2026-10-09-immunefi-fresh-scope.md), [Enzyme target record](../../audit_targets/enzyme-onyx-sync-redeem-immunefi-20261009/HUNT_STATUS.md), [Twyne target record](../../audit_targets/twyne-oct6-operators-immunefi-20261007/HUNT_STATUS.md), [Folks target record](../../audit_targets/folks-algorand-oct5-immunefi-20261008/HUNT_STATUS.md), and [ENS target record](../../audit_targets/ens-current-immunefi-20261008/HUNT_STATUS.md). Those checks do not establish complete coverage of every component or a reportable finding.
+
+**Disposition: `NO_MATERIAL_SCOPE_DELTA` relative to the preserved full catalog and October 9 digest.** There is no newly added Immunefi asset or term in this recheck to route ahead of a concrete sideways diagnostic. This conclusion is bounded by the official public catalog; an unlisted private/invite-only program, a later change, or a deployment/code update with no program-record change remains outside this delta claim. The sitemap XML could not be independently fetched in this pass (HTTP 403 via direct read; unsupported content type via web reader), but the full official catalog fetch and program-page spot checks succeeded, so the sitemap gap does not turn identical catalog content into a fresh-scope signal. Reopen on a changed catalog hash or an independently verified first-party deployment/scope update.

@@ -1,0 +1,25 @@
+{
+  "goal": "Continue the private, evidence-first hunt for an eligible High or strong Medium; do not submit or contact a target without separate authorization.",
+  "exact_stopping_point": "Authorized one-use researcher-owned AWS SNS/SQS diagnostic completed. Genuine SNS SignatureVersion 1 envelope passed the shipped Amazon Pay 2.6.2 parser and moved a synthetic local Woo order on-hold to processing. Two read-only post-run checks found the exact topic, subscription, and queue absent. No merchant callback, payment, full Woo runtime, or fulfillment test occurred. The frozen v003 report predates this proof and is factually stale on AWS-issued material.",
+  "next_action": "Review the new internal report draft against the AWS summary and pinned source, freeze a new report version if promoting, and preserve deployed-impact, bounty-adjudication, and private-duplicate unknowns. Do not rerun billable AWS work merely to repeat this successful result. Continue local diagnostics on another eligible target if this lead cannot be advanced safely.",
+  "completed": [
+    {
+      "text": "The capped AWS run passed with one confirmed synthetic Publish and genuine SNS envelope; estimate $0.0000132, not an actual invoice.",
+      "evidence": "audit_targets/automattic-amazon-pay-v262-h1-20261008/diagnostics/owned-sns-20261008T175003Z-4f579127/summary.json"
+    },
+    {
+      "text": "Independent local verifier rerun passed and exact AWS resources were absent in two post-run reconciliation rounds.",
+      "evidence": "audit_targets/automattic-amazon-pay-v262-h1-20261008/diagnostics/owned-sns-20261008T175003Z-4f579127/post-run-reconciliation.md"
+    },
+    {
+      "text": "Target status records source pin, narrow claim, controls, review history, and material untested impact.",
+      "evidence": "audit_targets/automattic-amazon-pay-v262-h1-20261008/HUNT_STATUS.md"
+    }
+  ],
+  "verification": [
+    {
+      "text": "AWS STS confirmed the approved account before the run; no real merchant or Amazon Pay API request was transmitted. Cleanup lookups were read-only.",
+      "evidence": "audit_targets/automattic-amazon-pay-v262-h1-20261008/HUNT_STATUS.md"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+name: Bounty Radar
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Restore radar state
+        uses: actions/cache/restore@v4
+        with:
+          path: data
+          key: bounty-radar-data-${{ github.run_id }}
+          restore-keys: |
+            bounty-radar-data-
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install chromium --with-deps
+
+      - name: Run scan
+        env:
+          BOUNTY_RADAR_GITHUB_TOKEN: ${{ secrets.BOUNTY_RADAR_GITHUB_TOKEN || github.token }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          AUDIT_TELEGRAM_BOT_TOKEN: ${{ secrets.AUDIT_TELEGRAM_BOT_TOKEN }}
+          AUDIT_TELEGRAM_CHAT_ID: ${{ secrets.AUDIT_TELEGRAM_CHAT_ID }}
+          BOUNTY_RADAR_TELEGRAM_BOT_TOKEN: ${{ secrets.BOUNTY_RADAR_TELEGRAM_BOT_TOKEN }}
+          BOUNTY_RADAR_TELEGRAM_CHAT_ID: ${{ secrets.BOUNTY_RADAR_TELEGRAM_CHAT_ID }}
+          BOUNTY_RADAR_BROWSER_HEADLESS: "true"
+          BOUNTY_RADAR_BROWSER_USER_DATA_DIR: data/browser-profile
+          TRACKED_CONFIG: tracked_orgs.example.json
+          BOUNTY_RADAR_DB: data/bounty_radar.sqlite
+          DIGEST_DIR: digests
+        run: python -m bounty_radar scan --json
+
+      - name: Save radar state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data
+          key: bounty-radar-data-${{ github.run_id }}
+
+      - name: Upload digest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bounty-radar-digest
+          path: digests/*.md
+          if-no-files-found: ignore

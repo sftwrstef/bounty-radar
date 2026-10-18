@@ -1,0 +1,20 @@
+{
+  "checkedAtUtc": "2026-10-10T22:15:47.488079+00:00",
+  "rpc": "https://rpc.gnosischain.com",
+  "blocks": [
+    48571541,
+    48691541
+  ],
+  "scope": "SparkLend current official Gnosis exact addresses",
+  "addresses": {
+    "POOL_CONFIGURATOR": "0x2Fc8823E1b967D474b47Ae0aD041c2ED562ab588",
+    "AAVE_ORACLE": "0x8105f69D9C41644c6A0803fDA7D03Aa70996cFD9",
+    "POOL_ADDRESSES_PROVIDER": "0xA98DaCB3fC964A6A0d2ce3B77294241585EAbA6d",
+    "CONFIG_ENGINE": "0x36eddc380C7f370e5f05Da5Bd7F970a27f063e39"
+  },
+  "response": {
+    "id": 1,
+    "jsonrpc": "2.0",
+    "result": []
+  }
+}

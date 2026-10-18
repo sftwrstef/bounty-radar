@@ -1,0 +1,27 @@
+# Immunefi Polygon exact-asset live-diff screen — 2026-10-10
+
+**Disposition:** No newly live implementation, beacon, or selected control-configuration change survived this bounded screen. This is a negative change-selection result, not a Polygon-wide security review. No production write, exploit call, fee, contact, or report occurred.
+
+## Decisive question and source
+
+Question: Did an exact Polygon smart-contract address in the current public Immunefi catalog acquire a new proxy implementation, beacon, or common administrative event since the October 1 pin, or did a high-value control contract change a value/authority setting in the last day? Stop if the complete exact-asset slot comparison and event windows are negative; only a confirmed change warrants a target-local exploit diagnostic.
+
+The [official public Immunefi catalog](https://immunefi.com/public-api/bounties.json) was fetched on October 10; SHA-256 `fb1f931ff1c979097ea625247f800149c2519fafe61ff17448a520eeb9a0d32f`. Filtering for nonpaused, noninvite, no-end-date programs and `smart_contract` asset rows with an exact Polygon-explorer address yielded **494 rows / 464 unique addresses / 20 programs**. Each receipt stores the exact address-to-program mapping. This is narrower than repository- or impact-first scope and does not decide eligibility for an unlisted deployment.
+
+Read-only Polygon RPC: `https://polygon.drpc.org`. The historical pin is block **94,738,440**, hash `0x8747a25e0b02abe6a5b45c5b6ad1b504d8389bb9fe6b27a785a3f222b2662b4a`, at **2026-10-01 00:00:00 UTC**; the comparison block is **95,310,035**, hash `0xd0ba8107b3cd5e1da43b60b60022860fa13c0e7c0dfa99c2b488d5b1c285db7b`, at **2026-10-10 22:11:42 UTC**. The event screen began at block **95,252,331**, hash `0x4f67b187c8f4ce1ea6f6ba0824b913b59e9de60d64ac68d256ac99b0e308c786`, **2026-10-09 22:08:58 UTC**.
+
+## Results
+
+| Read-only check | Exact result | Receipt |
+| --- | --- | --- |
+| Standard `Upgraded(address)` at every catalog address, from block 95,252,331 through 95,310,196 | All 580 consecutive windows returned valid arrays; **zero exact-address matches**. The final 271 blocks were completed in a three-window addendum. | [Main scan](evidence/2026-10-10-polygon-exact-upgraded-intersection.json), [start-gap extension](evidence/2026-10-10-polygon-event-gap-extension.json), [end-gap addendum](evidence/2026-10-10-polygon-upgraded-end-gap-addendum.json) |
+| `AdminChanged`, `BeaconUpgraded`, `DiamondCut`, and `OwnershipTransferred` at the same 464 addresses, from block 95,252,331 through 95,310,196 | All 580 consecutive windows returned valid arrays; **zero exact-address matches**. | [Main scan](evidence/2026-10-10-polygon-exact-admin-events.json), [gap extension](evidence/2026-10-10-polygon-event-gap-extension.json) |
+| EIP-1967 implementation and beacon storage at all 464 addresses at both October 1 and October 10 pins | **1,856/1,856** historical/current slot values obtained; **zero changed slots**. dRPC rejected batches larger than three; the preserved first attempt records that error, and the complete three-call retry has **zero missing values/errors**. | [Complete retry](evidence/2026-10-10-polygon-exact-proxy-slot-diff-retry.json), [initial failed batch](evidence/2026-10-10-polygon-exact-proxy-slot-diff.json) |
+| All events from 12 exact, high-value Polygon control addresses (Polygon rollup/exit-root, Hyperlane, deBridge, Compound Configurator/Timelock, Enzyme, Orderly, Parallel, Ondo) over the same one-day window | Events appeared only on Hyperlane Mailbox and deBridge Gate/SignatureVerifier. Their topics decode to `Dispatch`/`DispatchId`/`Process`/`ProcessId`, `Sent`/`Claimed`/monitoring/auto-request, and `Confirmed`/`SubmissionApproved`; **no control-setting event** appeared in these 12 addresses in this window. | [Main control scan](evidence/2026-10-10-polygon-control-event-screen.json), [gap extension](evidence/2026-10-10-polygon-event-gap-extension.json) |
+| Hyperlane Polygon Mailbox/IGP/Hook/ISM configuration getter comparison at the October 1 and 10 pins | Mailbox `defaultIsm`, `defaultHook`, `requiredHook`, `owner`, `localDomain`; IGP `beneficiary`, `owner`; FallbackHook and RoutingISM `owner` all returned identical values. Mailbox `nonce` advanced with normal message traffic. | [Getter receipt](evidence/2026-10-10-polygon-hyperlane-config-getters.json) |
+
+The deBridge event meanings above were matched against the pinned `IDeBridgeGate.sol` and `ISignatureVerifier.sol` in the existing deBridge source checkout. Hyperlane event meanings were matched against the pinned `IMailbox.sol`. These event labels explain observed activity; they do not certify that every contract setting in the wider program stayed fixed.
+
+## Boundary and next trigger
+
+The complete October 1-to-10 slot comparison excludes a *net* EIP-1967 implementation/beacon change at these exact addresses. The one-day event scan excludes only the named standard event topics and configuration events of the selected 12 controllers. It does **not** cover custom proxy slots, silent code changes, earlier/transient upgrades, unmapped children/vaults, all program-specific configuration events, or other chains. No material deployed change was selected, so no attacker-path or same-state value test was justified by this lane. Reopen when a specific Polygon contract/config transaction, source pin, or official asset addition identifies a materially different boundary.

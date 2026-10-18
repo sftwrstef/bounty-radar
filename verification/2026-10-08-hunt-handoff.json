@@ -1,0 +1,23 @@
+{
+  "goal": "Continue the private paid hunt for an eligible High or strong Medium. No new report, fee, enrollment, or unrelated target contact without separate authorization.",
+  "exact_stopping_point": "Amazon Pay AWS session verified; third SNS/SQS absence check; payout HOLD. 1inch Hooks v2 ordered-hook differential passes 2/2 at 140k gas; mock-only, real consumer UNKNOWN/PARK. Shopify shop/cookie mismatch KILL: public #451/#3106. Git-sync deletion actor/impact HOLD. Wallet backend allocation UNKNOWN. Proton Drive/Jetpack scouts NO PICK. Octez untested; PhotosDrive absent, Mac native UI locked.",
+  "next_action": "No AWS repeat or Amazon Pay report without full Woo impact/policy gate. Park 1inch until real v2 consumer and loss. Skip Shopify #451. On verified PhotosDrive, resume Octez/Jetpack local diagnostics; otherwise scout an active eligible target with a cheap test. No new report/contact/fee/live production test without separate authorization.",
+  "completed": [
+    {"text": "Revert exact accounting-mismatch lead KILL; no new submission.", "evidence": "audit_targets/revert-v4lend-cantina-20261007/HUNT_STATUS.md"},
+    {"text": "Octez source, peer gate, scope and bounded collision screen; still untested.", "evidence": "bounty-radar/verification/2026-10-08-tezos-octez-scout.md"},
+    {"text": "Git-sync real binary deleted only the swapped fixture's temp outside-root sentinel; actor/impact HOLD.", "evidence": "audit_targets/kubernetes-git-sync-v471-h1-20261008/HUNT_STATUS.md"},
+    {"text": "Proton Wallet address-pool question source mapped; backend transition still UNKNOWN.", "evidence": "audit_targets/proton-wallet-web-bounty-20261008/HUNT_STATUS.md"},
+    {"text": "Amazon Pay exact SNS/SQS resources absent at a third read-only check after renewed AWS sign-in; payout HOLD unchanged.", "evidence": "audit_targets/automattic-amazon-pay-v262-h1-20261008/diagnostics/owned-sns-20261008T175003Z-4f579127/post-run-reconciliation.md"},
+    {"text": "1inch ordered-hook timing reproduced locally with mock consumer and reversed-order control; real economic impact UNKNOWN.", "evidence": "audit_targets/1inch-token-hooks-immunefi-20261008/HUNT_STATUS.md"},
+    {"text": "Shopify generic shop/session mismatch semantically overlaps first-party public issue #451 and PR #3106; exact lead KILL.", "evidence": "audit_targets/shopify-app-js-h1-20261008/HUNT_STATUS.md"}
+  ],
+  "verification": [
+    {"text": "Storage tool independently reviewed; 70 focused tests pass. Revert receipt backup and new hash verified; exact-cwd harmless launch exits 0. Historical UUID link remains INFERRED.", "evidence": "test: /usr/bin/python3 -m unittest tools.tests.test_storage_external_profile tools.tests.test_vesper_storage tools.tests.test_storage_scratch_reconcile"},
+    {"text": "Offline Revert Forge log reports 1 passed, 0 failed/skipped; PoC and SSD copy hashes match.", "evidence": "test: forge test --root source --offline --match-test testReserveSubsidyHookFeeSameStateControl"},
+    {"text": "Git-sync guarded local differential test passed twice, each with one control and one swap subtest.", "evidence": "test: tools/vesper-storage run --reserve-gib 1 -- go test -v ./diagnostics -run '^TestSharedRootCurrentSymlinkDeletesOutsideRoot$' -count=1"},
+    {"text": "Four Wallet source files match the saved live source map byte-for-byte; backend allocation not tested.", "evidence": "test: jq -rj source-map extraction | diff -q - pinned source file"},
+    {"text": "PhotosDrive absent from /Volumes; native app control reports Mac locked. No Tezos, merchant, wallet, or cluster live test.", "evidence": "bounty-radar/verification/2026-10-08-tezos-octez-scout.md"},
+    {"text": "1inch Hardhat targeted tests ran twice and passed 2/2 each; second test used 140k hook gas and current files are hashed in the target status.", "evidence": "test: tools/vesper-storage run --reserve-gib 4 -- ./node_modules/.bin/hardhat test test/OrderedHookWindow.js"},
+    {"text": "AWS STS identity matched intended account and exact topic, subscription, queue returned absent on third read-only lookup.", "evidence": "audit_targets/automattic-amazon-pay-v262-h1-20261008/diagnostics/owned-sns-20261008T175003Z-4f579127/post-run-reconciliation.md"}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "checkedAtUtc": "2026-10-10T22:18:31.833378+00:00",
+  "source": "bounty-radar/verification/evidence/2026-10-10-polygon-exact-upgraded-intersection.json",
+  "rpc": "https://polygon.drpc.org",
+  "topic": "0xbc7cd75a20ee27fd9adebab32041f755214dbc6bffa90cc0225b39da2e5c2d3b",
+  "addressCount": 464,
+  "windows": [
+    {
+      "from": 95309926,
+      "to": 95310025,
+      "result": [],
+      "error": null
+    },
+    {
+      "from": 95310026,
+      "to": 95310125,
+      "result": [],
+      "error": null
+    },
+    {
+      "from": 95310126,
+      "to": 95310196,
+      "result": [],
+      "error": null
+    }
+  ]
+}

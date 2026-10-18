@@ -1,0 +1,33 @@
+{
+  "goal": "Continue the private paid hunt for an eligible High or strong Medium. Preserve authorization boundaries: no new report, fee, enrollment, unrelated target contact, live production test, or real-user funds without the required separate authorization.",
+  "exact_stopping_point": "AWS account authenticated; Amazon Pay SNS/SQS test and cleanup complete, payout HOLD. Aqua docs and Ethereum swap confirm mainnet use, not new reward terms. The guarded maker-selected Extruction local test passed 1/1 using Aqua v1.0.0 and SwapVM v1.0.2 target-tag sources with local remappings; this is not an exact reproduction of the SwapVM yarn-lock Aqua commit. It shows the synthetic accounting mechanic, but no independent attacker route or victim loss, so PARK. The first Vesper-root launch hit that root Extreme SSD scratch receipt's stale source_device; the corrected Aqua target-local receipt and SSD identity passed. Root receipt remains on hold. PhotosDrive is absent and the user reports it full; new external-source acquisition defaults to verified Extreme SSD. Its source parent was prepared and verified on 2026-10-08; recheck the drive and path before new acquisition. PhotosDrive is an explicit alternate only when available with capacity. Mattermost Zoom transcript candidate overlaps issue #413 root, not exact composition; paired test unrun. No stronger paid pick yet.",
+  "next_action": "Preserve Aqua as PARK unless new evidence shows outsider control of a trusted, already-shipped strategy; do not repeat the same mechanic test. Keep the separate Vesper-root scratch receipt on hold. Continue with an independent scoped paid surface using existing source; if new source acquisition is needed, use and verify the default Extreme SSD and its prepared target parent; use PhotosDrive only by explicit choice after it passes identity and capacity checks. Do not repeat AWS or test merchants. Run Mattermost v2 paired test only after its source hold clears; submit neither candidate now.",
+  "completed": [
+    {
+      "text": "Verified current AWS session account only; no repeat Publish or AWS write. Existing owned SNS/SQS cleanup remains documented.",
+      "evidence": "audit_targets/automattic-amazon-pay-v262-h1-20261008/HUNT_STATUS.md"
+    },
+    {
+      "text": "Read-only first-party Aqua address and same-day mainnet swap evidence saved with caveats; no production interaction.",
+      "evidence": "audit_targets/1inch-aqua-hackenproof-20260924/diagnostics/2026-10-08-mainnet-use.md"
+    },
+    {
+      "text": "Pinned SwapVM v1.0.2 Extruction diagnostic passed 1/1 with local Aqua v1.0.0 and direct dependency remappings; exact SwapVM lockfile Aqua commit was unavailable locally. Synthetic maker-selected mechanic confirmed, with actor/prior-art boundary PARK.",
+      "evidence": "audit_targets/1inch-aqua-hackenproof-20260924/HUNT_STATUS.md"
+    },
+    {
+      "text": "Mattermost Zoom v2 source/prior-art scope review recorded: issue #413 root overlap, transcript confidentiality sink conditional, no executable test.",
+      "evidence": "audit_targets/mattermost-zoom-v1130-bugcrowd-20261008/HUNT_STATUS.md"
+    }
+  ],
+  "not_done": [
+    {
+      "text": "Aqua Extruction mechanic passed locally, but no bounty-valid independent attacker path or actual victim loss is established; exact SwapVM lockfile Aqua commit was unavailable locally.",
+      "evidence": "audit_targets/1inch-aqua-hackenproof-20260924/HUNT_STATUS.md"
+    },
+    {
+      "text": "Mattermost Zoom v2 missing-UUID vs present-UUID paired test, distinct-reader proof, and final reward interpretation remain unresolved.",
+      "evidence": "audit_targets/mattermost-zoom-v1130-bugcrowd-20261008/HUNT_STATUS.md"
+    }
+  ]
+}

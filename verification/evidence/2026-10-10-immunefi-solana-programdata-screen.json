@@ -1,0 +1,822 @@
+{
+  "observed_at_utc": "2026-10-10T22:26:30.472510+00:00",
+  "rpc": "https://api.mainnet-beta.solana.com",
+  "commitment": "finalized",
+  "program_read_context_slot": 455419536,
+  "programdata_read_context_slot": 455419537,
+  "catalog_sha256": "fb1f931ff1c979097ea625247f800149c2519fafe61ff17448a520eeb9a0d32f",
+  "catalog_program_count": 232,
+  "chainlink_anchor_sha256": "c3d80b5740b504afcc6ebf86b917572859faddb84970a625005373fe7c414dc5",
+  "rows": [
+    {
+      "program_id": "2g4JDRMD7G3dK1PHmCnDAycKzd6e5sdhxqGBbs264zwz",
+      "groups": [
+        "1inch-SmartContracts: cross-chain escrow"
+      ],
+      "sources": [
+        "https://github.com/1inch/solana-crosschain-protocol"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "CooX7eUiTXxomNYePhRtx8oqDx8Sj1BDbZ3bXL7yXqJm",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 358705092,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "HNarfxC3kYMMhFkxUFeYb8wHVdPzY5t9pupqW5fL2meM",
+      "groups": [
+        "1inch-SmartContracts: fusion_swap"
+      ],
+      "sources": [
+        "https://github.com/1inch/solana-fusion/blob/84ecfdd18266188f5d77fb0cd4c00d97abb70a34/Anchor.toml"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "FUxJoZZkY7LYs5otHS4Y4V5Lx7uV5rEykt6CbUurUs9e",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 336474963,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "5jzZhrzqkbdwp5d3J1XbmaXMRnqeXimM1mDMoGHyvR7S",
+      "groups": [
+        "1inch-SmartContracts: whitelist"
+      ],
+      "sources": [
+        "https://github.com/1inch/solana-fusion/blob/84ecfdd18266188f5d77fb0cd4c00d97abb70a34/Anchor.toml"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "EFTx8BVKGNmsuGd1t1KU1VSTF4qtVfPm7E9frwK4w5oY",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 336467892,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "extaykYu5AQcDm3qZAbiDN3yp6skqn6Nssj7veUUGZw",
+      "groups": [
+        "KAST: USDK Extension Program"
+      ],
+      "sources": [
+        "https://solscan.io/account/extaykYu5AQcDm3qZAbiDN3yp6skqn6Nssj7veUUGZw"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "CK8fFmZLbHUVnCWsrc1kTFeEbgWgDbEtPsPysNgwBaTh",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 401369371,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "extMahs9bUFMYcviKCvnSRaXgs5PcqmMzcnHRtTqE85",
+      "groups": [
+        "KAST: USDKY Extension Program"
+      ],
+      "sources": [
+        "https://solscan.io/account/extMahs9bUFMYcviKCvnSRaXgs5PcqmMzcnHRtTqE85"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "4NGoz1FmBHWPios2HxRKNY94LFJD8Z5QvWmtLwLoJwjh",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 401378485,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "41FGToCmdaWa1dgZLKFAjvmx6e6AjVTX7SVRibvsMGVB",
+      "groups": [
+        "chainlink: burnmint_token_pool"
+      ],
+      "sources": [
+        "https://github.com/smartcontractkit/chainlink-ccip/blob/main/chains/solana/contracts/Anchor.toml"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "4sVSCJqG9ZKEvnpN38qTzb7Kc8QdHakBgB87HN3FYRaz",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 419964787,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "offqSMQWgQud6WJz694LRzkeN5kMYpCHTpXQr3Rkcjm",
+      "groups": [
+        "chainlink: ccip_offramp"
+      ],
+      "sources": [
+        "https://github.com/smartcontractkit/chainlink-ccip/blob/main/chains/solana/contracts/Anchor.toml"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "CQXcbRShpZz2eLqLLr5ShBc4Cw9VdQRSchFTcF7JBv3y",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 424444714,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "Ccip842gzYHhvdDkSyi2YVCoAWPbYJoApMFzSxQroE9C",
+      "groups": [
+        "chainlink: ccip_router"
+      ],
+      "sources": [
+        "https://github.com/smartcontractkit/chainlink-ccip/blob/main/chains/solana/contracts/Anchor.toml"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "4TiMyw3HEBuKRVQEC5pkCUQknmhEMRTvMFoL5K9urvEB",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 419774953,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "CCiTPESGEevd7TBU8EGBKrcxuRq7jx3YtW6tPidnscaZ",
+      "groups": [
+        "chainlink: cctp_token_pool"
+      ],
+      "sources": [
+        "https://github.com/smartcontractkit/chainlink-ccip/blob/main/chains/solana/contracts/Anchor.toml"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "279F2En4nsQvKSCzWZmTmWrLkMFpLAJp2GgUf3Lzk4CH",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 419774955,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "FeeQPGkKDeRV1MgoYfMH6L8o3KeuYjwUZrgn4LRKfjHi",
+      "groups": [
+        "chainlink: fee_quoter"
+      ],
+      "sources": [
+        "https://github.com/smartcontractkit/chainlink-ccip/blob/main/chains/solana/contracts/Anchor.toml"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "nfuV6WLjqmk6qm2gLHSeDqbS1s7YfQLekKHawpLrG6e",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 437468573,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "8eqh8wppT9c5rw4ERqNCffvU6cNFJWff9WmkcYtmGiqC",
+      "groups": [
+        "chainlink: lockrelease_token_pool"
+      ],
+      "sources": [
+        "https://github.com/smartcontractkit/chainlink-ccip/blob/main/chains/solana/contracts/Anchor.toml"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "AeMEQshfd7w72oGt5cMn8196zod6gQPWskbf5BY83W1B",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 419964789,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "5vNJx78mz7KVMjhuipyr9jKBKcMrKYGdjGkgE4LUmjKk",
+      "groups": [
+        "chainlink: mcm"
+      ],
+      "sources": [
+        "https://github.com/smartcontractkit/chainlink-ccip/blob/main/chains/solana/contracts/Anchor.toml"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "3jfA73CiAsX2hRBhvyaFjHNyX4bhWakD9PLNxe7AThNA",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 337167988,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "RmnXLft1mSEwDgMKu2okYuHkiazxntFFcZFrrcXxYg7",
+      "groups": [
+        "chainlink: rmn_remote"
+      ],
+      "sources": [
+        "https://github.com/smartcontractkit/chainlink-ccip/blob/main/chains/solana/contracts/Anchor.toml"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "13ni72iRr8n5uhvQdFtMhxrQJfWsjJhmbWXvGRDJqug4",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 434385584,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "DoajfR5tK24xVw51fWcawUZWhAXD8yrBJVacc13neVQA",
+      "groups": [
+        "chainlink: timelock"
+      ],
+      "sources": [
+        "https://github.com/smartcontractkit/chainlink-ccip/blob/main/chains/solana/contracts/Anchor.toml"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "BwkSRMRpdBua8CvsQd7Fyj2XT2DrXsdj6nc6s2MLzocM",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 337168104,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "4rXteUmbxiXvgLqP14eQwtqkLyVNXVCBHnXyLQ9vZkSh",
+      "groups": [
+        "dawn: Loopscale credit vault holding InfraFi capital - loan book, NAV and share price computed on-chain by Loopscale; DAWN is the sole whitelisted borrower via a Squads V4 multisig. On-chain Anchor IDL fetchable. In scope: InfraFi's vault configuration and integration \u2014 deposit/withdraw, borrow/repay, and deal-valuation integration; borrower authorization; and the exchange-rate/share-price semantics DAWN reads and publishes. Loopscale protocol and program internals are out of scope (see below)."
+      ],
+      "sources": [
+        "https://solscan.io/account/4rXteUmbxiXvgLqP14eQwtqkLyVNXVCBHnXyLQ9vZkSh"
+      ],
+      "account_owner": "1oopBoJG58DgkUVKkEzKgyG9dvRmpgeEm1AVjoHkF78",
+      "executable": false,
+      "account_space": 162,
+      "loader_variant": 736626899,
+      "account_status": "not_upgradeable_program"
+    },
+    {
+      "program_id": "EZ8sq2FNnmqQo254irAMGNp7c6B7DPuKh22SyXAwuXSn",
+      "groups": [
+        "dawn: Loopscale credit vault holding InfraFi capital - loan book, NAV and share price computed on-chain by Loopscale; DAWN is the sole whitelisted borrower via a Squads V4 multisig. On-chain Anchor IDL fetchable. In scope: InfraFi's vault configuration and integration \u2014 deposit/withdraw, borrow/repay, and deal-valuation integration; borrower authorization; and the exchange-rate/share-price semantics DAWN reads and publishes. Loopscale protocol and program internals are out of scope (see below)."
+      ],
+      "sources": [
+        "https://solscan.io/account/EZ8sq2FNnmqQo254irAMGNp7c6B7DPuKh22SyXAwuXSn"
+      ],
+      "account_owner": "1oopBoJG58DgkUVKkEzKgyG9dvRmpgeEm1AVjoHkF78",
+      "executable": false,
+      "account_space": 162,
+      "loader_variant": 736626899,
+      "account_status": "not_upgradeable_program"
+    },
+    {
+      "program_id": "dawn7ZUF7h7anFuEsDdAU1Y3HYwikwqNMAENZsQJdNL",
+      "groups": [
+        "dawn: USD.tel stablecoin \u2014 M0 wrapped-M issued on Solana's Token-2022 program with the Pausable extension. In scope: InfraFi's mint configuration and pause-authority operation."
+      ],
+      "sources": [
+        "https://solscan.io/token/dawn7ZUF7h7anFuEsDdAU1Y3HYwikwqNMAENZsQJdNL"
+      ],
+      "account_owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "executable": false,
+      "account_space": 557,
+      "loader_variant": 1,
+      "account_status": "not_upgradeable_program"
+    },
+    {
+      "program_id": "LPMWczEVgXyQ3979XaqqEttanCXmYGvtJqPVtw1PvC8",
+      "groups": [
+        "gmtrade: Liquidity Provider"
+      ],
+      "sources": [
+        "https://explorer.solana.com/address/LPMWczEVgXyQ3979XaqqEttanCXmYGvtJqPVtw1PvC8/verified-build"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "6Pm37LKANbf5bKymp6TTAiBy4ybYNLY7XwaMWRKKLZ8S",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 399521457,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "Gmso1uvJnLbawvw7yezdfCDcPydwW2s2iqG3w6MDucLo",
+      "groups": [
+        "gmtrade: Store"
+      ],
+      "sources": [
+        "https://explorer.solana.com/address/Gmso1uvJnLbawvw7yezdfCDcPydwW2s2iqG3w6MDucLo/verified-build"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "CSp2sB68THdrJP6N7Au4Y5u89VJ1E1ebaqZ2soHhQvav",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 438769784,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "GTuvYD5SxkTq4FLG6JV1FQ5dkczr1AfgDcBHaFsBdtBg",
+      "groups": [
+        "gmtrade: Treasury"
+      ],
+      "sources": [
+        "https://explorer.solana.com/address/GTuvYD5SxkTq4FLG6JV1FQ5dkczr1AfgDcBHaFsBdtBg/verified-build"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "GtBBQFHDfDva4zwLvShrP8UpcTXJZK3sU5Bv8QsMUe66",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 374632307,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "4VDjp6XQaxoZf5RGwiPU9NR1EXSZn2TP4ATMmiSzLfhb",
+      "groups": [
+        "layerzero: DVN (Solana)"
+      ],
+      "sources": [
+        "https://explorer.solana.com/address/4VDjp6XQaxoZf5RGwiPU9NR1EXSZn2TP4ATMmiSzLfhb"
+      ],
+      "account_owner": "HtEYV4xB4wvsj5fgTkcfuChYpvGYzgzwvNhgDZQNh7wW",
+      "executable": false,
+      "account_space": 7113,
+      "loader_variant": 1646350641,
+      "account_status": "not_upgradeable_program"
+    },
+    {
+      "program_id": "76y77prsiCMvXMjuoZ5VRrhG5qYBrUMYTE5WgHqgjEn6",
+      "groups": [
+        "layerzero: EndpointV2 (Solana)"
+      ],
+      "sources": [
+        "https://explorer.solana.com/address/76y77prsiCMvXMjuoZ5VRrhG5qYBrUMYTE5WgHqgjEn6"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "9RJbAS28AVA4WamkGMHBA3eymx4AsoPWAbJkN28CqJCz",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 268607546,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "7a4WjyR8VZ7yZz5XJAKm39BUGn5iT9CKcv2pmG9tdXVH",
+      "groups": [
+        "layerzero: ReceiveULN302 (Solana)"
+      ],
+      "sources": [
+        "https://explorer.solana.com/address/7a4WjyR8VZ7yZz5XJAKm39BUGn5iT9CKcv2pmG9tdXVH"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "Bb6ZtqSxH1A9fF9JsbRmbWpGqvZb8M9NAQzu5E3FdL2Q",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 274034628,
+      "upgrade_authority_option": 0
+    },
+    {
+      "program_id": "6doghB248px58JSSwG4qejQ46kFMW4AMj7vzJnWZHNZn",
+      "groups": [
+        "layerzero: SendULN302 (Solana)"
+      ],
+      "sources": [
+        "https://explorer.solana.com/address/6doghB248px58JSSwG4qejQ46kFMW4AMj7vzJnWZHNZn"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "2Wt3oBEhMH2HZ1jG4RJtkKH38fj4G4kpWbhUuNfhaf3v",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 370830740,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "Lom9TMiPbqkXk8ddFooUY1gbHqt87TCmVfTfv8AHgYx",
+      "groups": [
+        "lombard-finance: Asset Router"
+      ],
+      "sources": [
+        "https://github.com/lombard-finance/sol-svm-contracts/tree/main/programs/asset_router"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "7itqrwTaEB58KH123iV7xJNUGjeNf5gqxU7m3djWWcSy",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 435600114,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "E1p8P6TTe8QvKmSK7QZ3n7HtQY9hE1p9JrCwLrXnPUfn",
+      "groups": [
+        "lombard-finance: Bascule"
+      ],
+      "sources": [
+        "https://github.com/lombard-finance/sol-svm-contracts/tree/main/programs/bascule"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "7mSGfhPfN9LR5p6A3m6b72NvjaDCTqDsqvv6zF3rpaqZ",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 333665757,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "LomeavGUocL4Rn5TboDYFQEwUp3wBKodUTRKE8KqbE6",
+      "groups": [
+        "lombard-finance: Bascule GMP"
+      ],
+      "sources": [
+        "https://github.com/lombard-finance/sol-svm-contracts/tree/main/programs/bascule_gmp"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "5xB5axpiE9ZmZXFVy7qEs6Hh1MRrzY2mdSfXyLTu3urG",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 421047788,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "Lomva5kTftuXE8992qRufkaeq3XrXV47qv3C1W9xW6Z",
+      "groups": [
+        "lombard-finance: Bridge"
+      ],
+      "sources": [
+        "https://github.com/lombard-finance/sol-svm-contracts/tree/main/programs/bridge"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "264CGhVCJndBv135j9g9FvXGkWW1EsAxYehFCcZj29xj",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 434696124,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "LomuEULX7VPwCBVTjxsgFjBLz7HJwE8V1DyaSqXj1dc",
+      "groups": [
+        "lombard-finance: Consortium"
+      ],
+      "sources": [
+        "https://github.com/lombard-finance/sol-svm-contracts/tree/main/programs/consortium"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "BUmair6cmypguYJUjcNBgTWUjvzrWrHwAmgKRXJLonX1",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 421047982,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "Lomb8TTCwJKEhZrJ1J8UbsCRjNSf7NNQUEr4qo3dkSk",
+      "groups": [
+        "lombard-finance: Lombard Token Pool"
+      ],
+      "sources": [
+        "https://github.com/lombard-finance/sol-svm-contracts/tree/main/programs/lombard_token_pool"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "76TKKtAX1MngECE5KXZ8ZowErupmeZbggMsvZGf3SwCN",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 434695861,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "Lomsq4ZNkZQGysC1pQc2NqNiAbXQm6C8nLmKcUoESEA",
+      "groups": [
+        "lombard-finance: Mailbox"
+      ],
+      "sources": [
+        "https://github.com/lombard-finance/sol-svm-contracts/tree/main/programs/mailbox"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "CYjVQB6dY5mm2KTAUkhGyhh3aCCZv4Pbpv6M2qBVeZjK",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 434696206,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "LomyRmBeQiuqiwcPmr23RRA1SMLAuDEgj5tHHe7rsDn",
+      "groups": [
+        "lombard-finance: Ratio Oracle"
+      ],
+      "sources": [
+        "https://github.com/lombard-finance/sol-svm-contracts/tree/main/programs/ratio_oracle"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "DJhc2Y3REbZRd2BhVCPGVC1BMjX6mXnor7NGfJC4dJjE",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 434696291,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "MarBmsSgKXdrN1egZf5sqe1TMai9K1rChYNDJgjq7aD",
+      "groups": [
+        "marinade: liquid staking"
+      ],
+      "sources": [
+        "https://github.com/marinade-finance/liquid-staking-program"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "4PQH9YmfuKrVyZaibkLYpJZPv2FPaybhq2GAuBcWMSBf",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 433290841,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "i7u4r16TcsJTgq1kAG8opmVZyVnAKBwLKu6ZPMwzxNc",
+      "groups": [
+        "ondofinance: OUSG Token (Solana)"
+      ],
+      "sources": [
+        "https://solscan.io/account/i7u4r16TcsJTgq1kAG8opmVZyVnAKBwLKu6ZPMwzxNc#metadata"
+      ],
+      "account_owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "executable": false,
+      "account_space": 82,
+      "loader_variant": 1,
+      "account_status": "not_upgradeable_program"
+    },
+    {
+      "program_id": "7YNReenG6AXgVUfmSizt6hoVXrznS4zDdgCj1UTLJ2S3",
+      "groups": [
+        "ondofinance: OndoMintBurnAdapter (Solana)"
+      ],
+      "sources": [
+        "https://solscan.io/account/7YNReenG6AXgVUfmSizt6hoVXrznS4zDdgCj1UTLJ2S3"
+      ],
+      "account_owner": "BGJQtQSPxa2nR9BodnjYb3Pbgft7nX5heQk3dr3uaFUB",
+      "executable": false,
+      "account_space": 223,
+      "loader_variant": 2255017923,
+      "account_status": "not_upgradeable_program"
+    },
+    {
+      "program_id": "XzTT4XB8m7sLD2xi6snefSasaswsKCxx5Tifjondogm",
+      "groups": [
+        "ondofinance: Solana GM Program"
+      ],
+      "sources": [
+        "https://solscan.io/account/XzTT4XB8m7sLD2xi6snefSasaswsKCxx5Tifjondogm"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "F4F1ZdqwmT4KfCfCnXrqLp9R6Liq4vEqJcs64xVKTKeU",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 429073863,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "3cKyGYojYbFxeUnBf5xak3cTpaxmYuzpFbSnP9n3kyui",
+      "groups": [
+        "ondofinance: Solana GMTokenManagerState"
+      ],
+      "sources": [
+        "https://solscan.io/account/3cKyGYojYbFxeUnBf5xak3cTpaxmYuzpFbSnP9n3kyui"
+      ],
+      "account_owner": "XzTT4XB8m7sLD2xi6snefSasaswsKCxx5Tifjondogm",
+      "executable": false,
+      "account_space": 57,
+      "loader_variant": 2741502840,
+      "account_status": "not_upgradeable_program"
+    },
+    {
+      "program_id": "CKW82CT7QtJUDkxCa6sSHZ3UXvUSu6EuGDXUtKyXgn67",
+      "groups": [
+        "ondofinance: Solana USDonManagerState"
+      ],
+      "sources": [
+        "https://solscan.io/account/CKW82CT7QtJUDkxCa6sSHZ3UXvUSu6EuGDXUtKyXgn67"
+      ],
+      "account_owner": "XzTT4XB8m7sLD2xi6snefSasaswsKCxx5Tifjondogm",
+      "executable": false,
+      "account_space": 178,
+      "loader_variant": 694101764,
+      "account_status": "not_upgradeable_program"
+    },
+    {
+      "program_id": "A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6",
+      "groups": [
+        "ondofinance: USDY Token (Standard SPL Token on Solana)"
+      ],
+      "sources": [
+        "https://solscan.io/account/A1KLoBrKBde8Ty9qtNQUtq3C2ortoC3u7twggz7sEto6#metadata"
+      ],
+      "account_owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "executable": false,
+      "account_space": 82,
+      "loader_variant": 1,
+      "account_status": "not_upgradeable_program"
+    },
+    {
+      "program_id": "onreuGhHHgVzMWSkj2oQDLDtvvGvoepBPkqyaubFcwe",
+      "groups": [
+        "onre: OnRe Program"
+      ],
+      "sources": [
+        "https://solscan.io/account/onreuGhHHgVzMWSkj2oQDLDtvvGvoepBPkqyaubFcwe"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "91o8wFyxszM4DeQ5R6X6wJdyn9e8VRnsreVBTLb7Yrpg",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 452310149,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc",
+      "groups": [
+        "orca: Orca Whirlpools"
+      ],
+      "sources": [
+        "https://solscan.io/account/whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3uctyCc"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "CtXfPzz36dH5Ws4UYKZvrQ1Xqzn42ecDW6y8NKuiN8nD",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 440170207,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "StaKE6XNKVVhG8Qu9hDJBqCW3eRe7MDGLz17nJZetLT",
+      "groups": [
+        "orca: xORCA"
+      ],
+      "sources": [
+        "https://solscan.io/account/StaKE6XNKVVhG8Qu9hDJBqCW3eRe7MDGLz17nJZetLT"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "7TdF3aLJXvwo24azTD3vBTMzr5ScscQUdHzdfcf41kbD",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 370039372,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "rec5EKMGg6MxZYaMdyBfgwp4d5rB9T1VQH5pJv5LtFJ",
+      "groups": [
+        "pythnetwork: Core receiver"
+      ],
+      "sources": [
+        "https://docs.pyth.network/price-feeds/core/contract-addresses/solana"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "96QrNCjmh32H9quY9DX4NEH81nECVsbkATBDZeoVbvLV",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 327047637,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "rec2HHDDnjLfj4kE7VyEtFA1HPGQLK33259532cRyHp",
+      "groups": [
+        "pythnetwork: Pro receiver"
+      ],
+      "sources": [
+        "https://github.com/pyth-network/pyth-crosschain/tree/main/target_chains/solana"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "3UV7w2yTaqVcUAbWm1KUXdcE1Ziw8CfyyCpZvhKFkPfX",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 417825260,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "87MEvHZCXE3ML5rrmh5uX1FbShHmRXXS32xJDGbQ7h5t",
+      "groups": [
+        "thresholdnetwork: Wormhole gateway "
+      ],
+      "sources": [
+        "https://solscan.io/account/87MEvHZCXE3ML5rrmh5uX1FbShHmRXXS32xJDGbQ7h5t"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "E7a6nKKzHmDT7SPpDYocHhsXEbfSdbeBKZaKCjKo89Uq",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 210946880,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "Gj93RRt6QB7FjmyokAD5rcMAku7pq3Fk2Aa8y6nNbwsV",
+      "groups": [
+        "thresholdnetwork: tBTC"
+      ],
+      "sources": [
+        "https://solscan.io/account/Gj93RRt6QB7FjmyokAD5rcMAku7pq3Fk2Aa8y6nNbwsV"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "AHRfoTXh6d97YcmWJCpC3aRT4bXm7sEEvXQhvTw2M3E6",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 210946820,
+      "upgrade_authority_option": 1
+    },
+    {
+      "program_id": "wormDTUJ6AWPNvk59vGQbDvGJmqbDTdgWgAqcLBCgUb",
+      "groups": [
+        "wormhole: Accountant"
+      ],
+      "sources": [
+        "https://github.com/wormhole-foundation/wormhole/tree/main/solana"
+      ],
+      "account_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "executable": true,
+      "account_space": 36,
+      "loader_variant": 2,
+      "programdata": "7ek4EpFaoForoFzzx8wBVQzN9oYP5reNK9JkYHMnTxo9",
+      "programdata_owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "programdata_variant": 3,
+      "last_deploy_slot": 377952237,
+      "upgrade_authority_option": 1
+    }
+  ]
+}
